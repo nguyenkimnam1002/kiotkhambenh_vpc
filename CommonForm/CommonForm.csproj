@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D00EEA3-64CB-411A-981B-AECFDC91839A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.CommonForm</RootNamespace>
+    <AssemblyName>VNPT.HIS.CommonForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a82f807c999637c8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.DexterLib">
+      <HintPath>..\DLL\Interop.DexterLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCVDotNet, Version=1.0.2615.24735, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\OpenCVDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCVDotNet.UI, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\OpenCVDotNet.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CapSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapSo.Designer.cs">
+      <DependentUpon>CapSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capture\AsfFormat.cs" />
+    <Compile Include="Capture\AudioCapabilities.cs" />
+    <Compile Include="Capture\AudioSource.cs" />
+    <Compile Include="Capture\Capture.cs" />
+    <Compile Include="Capture\CrossbarSource.cs" />
+    <Compile Include="Capture\DeviceInUseException.cs" />
+    <Compile Include="Capture\DirectShowPropertyPage.cs" />
+    <Compile Include="Capture\Filter.cs" />
+    <Compile Include="Capture\FilterCollection.cs" />
+    <Compile Include="Capture\Filters.cs" />
+    <Compile Include="Capture\Global.cs" />
+    <Compile Include="Capture\PropertyPage.cs" />
+    <Compile Include="Capture\PropertyPageCollection.cs" />
+    <Compile Include="Capture\Source.cs" />
+    <Compile Include="Capture\SourceCollection.cs" />
+    <Compile Include="Capture\Tuner.cs" />
+    <Compile Include="Capture\TVFineTune.cs" />
+    <Compile Include="Capture\VfwCompressorPropertyPage.cs" />
+    <Compile Include="Capture\VideoCapabilities.cs" />
+    <Compile Include="Capture\Wmlib.cs" />
+    <Compile Include="Capture\WmprofileData.cs" />
+    <Compile Include="Class\ChiDinhThuocDto.cs" />
+    <Compile Include="Class\ServiceBHYT.cs" />
+    <Compile Include="Class\ServiceBYT.cs" />
+    <Compile Include="Class\ServiceChiDinhThuoc.cs" />
+    <Compile Include="Class\ServiceChuyenPhongKham.cs" />
+    <Compile Include="Class\ServiceCommonForm.cs" />
+    <Compile Include="DShowNET\DsBugWO.cs" />
+    <Compile Include="DShowNET\DsControl.cs" />
+    <Compile Include="DShowNET\DsCore.cs" />
+    <Compile Include="DShowNET\DsDevice.cs" />
+    <Compile Include="DShowNET\DsDVD.cs" />
+    <Compile Include="DShowNET\DsExtend.cs" />
+    <Compile Include="DShowNET\DsUtils.cs" />
+    <Compile Include="DShowNET\DsUuids.cs" />
+    <Compile Include="DShowNET\DsVmr9.cs" />
+    <Compile Include="DShowNET\DsVmRender.cs" />
+    <Compile Include="DShowNET\QEdit.cs" />
+    <Compile Include="HOSO_QUANLYSUCKHOECANHAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOSO_QUANLYSUCKHOECANHAN.Designer.cs">
+      <DependentUpon>HOSO_QUANLYSUCKHOECANHAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT01T001_sinhton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT01T001_sinhton.Designer.cs">
+      <DependentUpon>NGT01T001_sinhton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT01T006_hoahong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT01T006_hoahong.Designer.cs">
+      <DependentUpon>NGT01T006_hoahong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K018_DonThuocMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K018_DonThuocMau.Designer.cs">
+      <DependentUpon>NGT02K018_DonThuocMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K019_DonThuocCu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K019_DonThuocCu.Designer.cs">
+      <DependentUpon>NGT02K019_DonThuocCu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K020_ThuocConSuDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K020_ThuocConSuDung.Designer.cs">
+      <DependentUpon>NGT02K020_ThuocConSuDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K025_LichSuDieuTri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K025_LichSuDieuTri.Designer.cs">
+      <DependentUpon>NGT02K025_LichSuDieuTri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K026_ChupAnhBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K026_ChupAnhBenhNhan.Designer.cs">
+      <DependentUpon>NGT02K026_ChupAnhBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K027_ThongbaoDangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K027_ThongbaoDangKyKham.Designer.cs">
+      <DependentUpon>NGT02K027_ThongbaoDangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K028_HienthiDanhSachKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K028_HienthiDanhSachKham.Designer.cs">
+      <DependentUpon>NGT02K028_HienthiDanhSachKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K029_YeuCauMoBenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K029_YeuCauMoBenhAn.Designer.cs">
+      <DependentUpon>NGT02K029_YeuCauMoBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K033_KiemdiemTuVong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K033_KiemdiemTuVong.Designer.cs">
+      <DependentUpon>NGT02K033_KiemdiemTuVong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K034_InDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K034_InDonThuoc.Designer.cs">
+      <DependentUpon>NGT02K034_InDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K036_XoaKT_BN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K036_XoaKT_BN.Designer.cs">
+      <DependentUpon>NGT02K036_XoaKT_BN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K037_DSBN_HopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K037_DSBN_HopDong.Designer.cs">
+      <DependentUpon>NGT02K037_DSBN_HopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K039_CHUYENBNPHONGTRUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K039_CHUYENBNPHONGTRUC.Designer.cs">
+      <DependentUpon>NGT02K039_CHUYENBNPHONGTRUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K048_LichSuKCB_CT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K048_LichSuKCB_CT.Designer.cs">
+      <DependentUpon>NGT02K048_LichSuKCB_CT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K049_TraCuuCongBYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K049_TraCuuCongBYT.Designer.cs">
+      <DependentUpon>NGT02K049_TraCuuCongBYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCDBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCDBD.Designer.cs">
+      <DependentUpon>NGT02K053_PK_LCDBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCDBD1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCDBD1.Designer.cs">
+      <DependentUpon>NGT02K053_PK_LCDBD1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K053_THIETLAP_MH_LCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K053_THIETLAP_MH_LCD.Designer.cs">
+      <DependentUpon>NGT02K053_THIETLAP_MH_LCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K056_TKBN_THEOPK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K056_TKBN_THEOPK.Designer.cs">
+      <DependentUpon>NGT02K056_TKBN_THEOPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K057_ThuocDiUng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K057_ThuocDiUng.Designer.cs">
+      <DependentUpon>NGT02K057_ThuocDiUng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K061_QLBNHenKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K061_QLBNHenKham.Designer.cs">
+      <DependentUpon>NGT02K061_QLBNHenKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K040_MoBenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K040_MoBenhAn.Designer.cs">
+      <DependentUpon>NGT02K040_MoBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K041_PhieuChiDinhMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K041_PhieuChiDinhMau.Designer.cs">
+      <DependentUpon>NGT02K041_PhieuChiDinhMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K043_DuongDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K043_DuongDung.Designer.cs">
+      <DependentUpon>NGT02K043_DuongDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K045_DanhSachPhongKhamYCK1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K045_DanhSachPhongKhamYCK1.Designer.cs">
+      <DependentUpon>NGT02K045_DanhSachPhongKhamYCK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT01T004_Tiepnhan_Chuyenphongkham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT01T004_Tiepnhan_Chuyenphongkham.Designer.cs">
+      <DependentUpon>NGT01T004_Tiepnhan_Chuyenphongkham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT01T001_chuyenvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT01T001_chuyenvien.Designer.cs">
+      <DependentUpon>NGT01T001_chuyenvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K031_ChonKQCLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K031_ChonKQCLS.Designer.cs">
+      <DependentUpon>NGT02K031_ChonKQCLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K009_Chuyenvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K009_Chuyenvien.Designer.cs">
+      <DependentUpon>NGT02K009_Chuyenvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K008_Thongtin_Lichkham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K008_Thongtin_Lichkham.Designer.cs">
+      <DependentUpon>NGT02K008_Thongtin_Lichkham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K007_Thongtin_Ravien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K007_Thongtin_Ravien.Designer.cs">
+      <DependentUpon>NGT02K007_Thongtin_Ravien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K010_Tuvong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K010_Tuvong.Designer.cs">
+      <DependentUpon>NGT02K010_Tuvong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K044_sinhsothutumoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K044_sinhsothutumoi.Designer.cs">
+      <DependentUpon>NGT02K044_sinhsothutumoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K045_DanhSachPhongKhamYCK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K045_DanhSachPhongKhamYCK.Designer.cs">
+      <DependentUpon>NGT02K045_DanhSachPhongKhamYCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K046_them_chuyenphongkham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K046_them_chuyenphongkham.Designer.cs">
+      <DependentUpon>NGT02K046_them_chuyenphongkham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K047_LichSuKCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K047_LichSuKCB.Designer.cs">
+      <DependentUpon>NGT02K047_LichSuKCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K053_PK_LCD.Designer.cs">
+      <DependentUpon>NGT02K053_PK_LCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K054_ChuyenYCKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K054_ChuyenYCKham.Designer.cs">
+      <DependentUpon>NGT02K054_ChuyenYCKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K058_Thongtin_nghiduong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K058_Thongtin_nghiduong.Designer.cs">
+      <DependentUpon>NGT02K058_Thongtin_nghiduong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K059_show_img.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K059_show_img.Designer.cs">
+      <DependentUpon>NGT02K059_show_img.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K061_QLHenKham_VienPhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K061_QLHenKham_VienPhi.Designer.cs">
+      <DependentUpon>NGT02K061_QLHenKham_VienPhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K063_QLHenKham_Sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K063_QLHenKham_Sua.Designer.cs">
+      <DependentUpon>NGT02K063_QLHenKham_Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K064_QLHenKham_GuiTN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K064_QLHenKham_GuiTN.Designer.cs">
+      <DependentUpon>NGT02K064_QLHenKham_GuiTN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K068_QUETMABN_KBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K068_QUETMABN_KBH.Designer.cs">
+      <DependentUpon>NGT02K068_QUETMABN_KBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H013_TimKiemBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H013_TimKiemBenhNhan.Designer.cs">
+      <DependentUpon>NTU01H013_TimKiemBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H021_PhieuTamUngBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H021_PhieuTamUngBenhNhan.Designer.cs">
+      <DependentUpon>NTU01H021_PhieuTamUngBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU02D035_Thongtintainanthuongtich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU02D035_Thongtintainanthuongtich.Designer.cs">
+      <DependentUpon>NTU02D035_Thongtintainanthuongtich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU02D075_PhacDoMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU02D075_PhacDoMau.Designer.cs">
+      <DependentUpon>NTU02D075_PhacDoMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K061_QLHenKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K061_QLHenKham.Designer.cs">
+      <DependentUpon>NGT02K061_QLHenKham.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CapSo.resx">
+      <DependentUpon>CapSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT01T001_sinhton.resx">
+      <DependentUpon>NGT01T001_sinhton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT01T006_hoahong.resx">
+      <DependentUpon>NGT01T006_hoahong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K018_DonThuocMau.resx">
+      <DependentUpon>NGT02K018_DonThuocMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K019_DonThuocCu.resx">
+      <DependentUpon>NGT02K019_DonThuocCu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K025_LichSuDieuTri.resx">
+      <DependentUpon>NGT02K025_LichSuDieuTri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K026_ChupAnhBenhNhan.resx">
+      <DependentUpon>NGT02K026_ChupAnhBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K027_ThongbaoDangKyKham.resx">
+      <DependentUpon>NGT02K027_ThongbaoDangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K028_HienthiDanhSachKham.resx">
+      <DependentUpon>NGT02K028_HienthiDanhSachKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K029_YeuCauMoBenhAn.resx">
+      <DependentUpon>NGT02K029_YeuCauMoBenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K033_KiemdiemTuVong.resx">
+      <DependentUpon>NGT02K033_KiemdiemTuVong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K034_InDonThuoc.resx">
+      <DependentUpon>NGT02K034_InDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K036_XoaKT_BN.resx">
+      <DependentUpon>NGT02K036_XoaKT_BN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K037_DSBN_HopDong.resx">
+      <DependentUpon>NGT02K037_DSBN_HopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K039_CHUYENBNPHONGTRUC.resx">
+      <DependentUpon>NGT02K039_CHUYENBNPHONGTRUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K046_them_chuyenphongkham.resx">
+      <DependentUpon>NGT02K046_them_chuyenphongkham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K048_LichSuKCB_CT.resx">
+      <DependentUpon>NGT02K048_LichSuKCB_CT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K049_TraCuuCongBYT.resx">
+      <DependentUpon>NGT02K049_TraCuuCongBYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K053_PK_LCDBD.resx">
+      <DependentUpon>NGT02K053_PK_LCDBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K053_PK_LCDBD1.resx">
+      <DependentUpon>NGT02K053_PK_LCDBD1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K053_THIETLAP_MH_LCD.resx">
+      <DependentUpon>NGT02K053_THIETLAP_MH_LCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K056_TKBN_THEOPK.resx">
+      <DependentUpon>NGT02K056_TKBN_THEOPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K057_ThuocDiUng.resx">
+      <DependentUpon>NGT02K057_ThuocDiUng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K058_Thongtin_nghiduong.resx">
+      <DependentUpon>NGT02K058_Thongtin_nghiduong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K061_QLBNHenKham.resx">
+      <DependentUpon>NGT02K061_QLBNHenKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K040_MoBenhAn.resx">
+      <DependentUpon>NGT02K040_MoBenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K041_PhieuChiDinhMau.resx">
+      <DependentUpon>NGT02K041_PhieuChiDinhMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K043_DuongDung.resx">
+      <DependentUpon>NGT02K043_DuongDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K045_DanhSachPhongKhamYCK1.resx">
+      <DependentUpon>NGT02K045_DanhSachPhongKhamYCK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT01T004_Tiepnhan_Chuyenphongkham.resx">
+      <DependentUpon>NGT01T004_Tiepnhan_Chuyenphongkham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT01T001_chuyenvien.resx">
+      <DependentUpon>NGT01T001_chuyenvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K031_ChonKQCLS.resx">
+      <DependentUpon>NGT02K031_ChonKQCLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K009_Chuyenvien.resx">
+      <DependentUpon>NGT02K009_Chuyenvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K008_Thongtin_Lichkham.resx">
+      <DependentUpon>NGT02K008_Thongtin_Lichkham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K007_Thongtin_Ravien.resx">
+      <DependentUpon>NGT02K007_Thongtin_Ravien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K010_Tuvong.resx">
+      <DependentUpon>NGT02K010_Tuvong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K044_sinhsothutumoi.resx">
+      <DependentUpon>NGT02K044_sinhsothutumoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K045_DanhSachPhongKhamYCK.resx">
+      <DependentUpon>NGT02K045_DanhSachPhongKhamYCK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K047_LichSuKCB.resx">
+      <DependentUpon>NGT02K047_LichSuKCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K053_PK_LCD.resx">
+      <DependentUpon>NGT02K053_PK_LCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K054_ChuyenYCKham.resx">
+      <DependentUpon>NGT02K054_ChuyenYCKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K059_show_img.resx">
+      <DependentUpon>NGT02K059_show_img.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K061_QLHenKham.resx">
+      <DependentUpon>NGT02K061_QLHenKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K061_QLHenKham_VienPhi.resx">
+      <DependentUpon>NGT02K061_QLHenKham_VienPhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K063_QLHenKham_Sua.resx">
+      <DependentUpon>NGT02K063_QLHenKham_Sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K064_QLHenKham_GuiTN.resx">
+      <DependentUpon>NGT02K064_QLHenKham_GuiTN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K068_QUETMABN_KBH.resx">
+      <DependentUpon>NGT02K068_QUETMABN_KBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H013_TimKiemBenhNhan.resx">
+      <DependentUpon>NTU01H013_TimKiemBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU02D075_PhacDoMau.resx">
+      <DependentUpon>NTU02D075_PhacDoMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{809c1373-7d03-44e4-9297-57ba6c7216d2}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\UserControl.csproj">
+      <Project>{d4298c86-6e38-409f-91a6-2bf8b2a2c1ad}</Project>
+      <Name>UserControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_902.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\logo_965.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

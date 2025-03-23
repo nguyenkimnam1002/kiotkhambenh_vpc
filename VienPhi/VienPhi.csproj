@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84BA1910-65E6-4A63-836E-AEFC74E18F76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.VienPhi</RootNamespace>
+    <AssemblyName>VNPT.HIS.VienPhi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="VNPT.HIS.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Common\bin\Debug\VNPT.HIS.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ServiceHDDT.cs" />
+    <Compile Include="NTU01H022_ChuyenDoiTuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H022_ChuyenDoiTuong.Designer.cs">
+      <DependentUpon>NTU01H022_ChuyenDoiTuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H026_DoiBacSy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H026_DoiBacSy.Designer.cs">
+      <DependentUpon>NTU01H026_DoiBacSy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H025_DoiPhongChiDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H025_DoiPhongChiDinh.Designer.cs">
+      <DependentUpon>NTU01H025_DoiPhongChiDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H027_DoiGioChiDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H027_DoiGioChiDinh.Designer.cs">
+      <DependentUpon>NTU01H027_DoiGioChiDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H024_ToolSuaDuLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H024_ToolSuaDuLieu.Designer.cs">
+      <DependentUpon>NTU01H024_ToolSuaDuLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H036_Suaphieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H036_Suaphieu.Designer.cs">
+      <DependentUpon>NTU01H036_Suaphieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H037_SuaTheBhyt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H037_SuaTheBhyt.Designer.cs">
+      <DependentUpon>NTU01H037_SuaTheBhyt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H038_SuaBacSiTH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H038_SuaBacSiTH.Designer.cs">
+      <DependentUpon>NTU01H038_SuaBacSiTH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H038_SuaBacSiTH1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H038_SuaBacSiTH1.Designer.cs">
+      <DependentUpon>NTU01H038_SuaBacSiTH1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H039_ChinhSuaGiuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H039_ChinhSuaGiuong.Designer.cs">
+      <DependentUpon>NTU01H039_ChinhSuaGiuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_Nhapthongtintt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_Nhapthongtintt.Designer.cs">
+      <DependentUpon>VPI01T001_Nhapthongtintt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_ThemMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_ThemMST.Designer.cs">
+      <DependentUpon>VPI01T001_ThemMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_Capnhatphieuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_Capnhatphieuthu.Designer.cs">
+      <DependentUpon>VPI01T001_Capnhatphieuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_Xacnhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_Xacnhan.Designer.cs">
+      <DependentUpon>VPI01T001_Xacnhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_thuvienphi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_thuvienphi.Designer.cs">
+      <DependentUpon>VPI01T001_thuvienphi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T001_Dichvusai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T001_Dichvusai.Designer.cs">
+      <DependentUpon>VPI01T001_Dichvusai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T002_capnhatsophieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T002_capnhatsophieu.Designer.cs">
+      <DependentUpon>VPI01T002_capnhatsophieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T002_danhsachsophieuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T002_danhsachsophieuthu.Designer.cs">
+      <DependentUpon>VPI01T002_danhsachsophieuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T002_sophieuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T002_sophieuthu.Designer.cs">
+      <DependentUpon>VPI01T002_sophieuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T002_xoaphieuketchuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T002_xoaphieuketchuyen.Designer.cs">
+      <DependentUpon>VPI01T002_xoaphieuketchuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T003_danhsachphieuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T003_danhsachphieuthu.Designer.cs">
+      <DependentUpon>VPI01T003_danhsachphieuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T004_lichsuthanhtoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T004_lichsuthanhtoan.Designer.cs">
+      <DependentUpon>VPI01T004_lichsuthanhtoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI01T006_thanhtoanvienphi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI01T006_thanhtoanvienphi.Designer.cs">
+      <DependentUpon>VPI01T006_thanhtoanvienphi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPI02G001_duyetbhyt4210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPI02G001_duyetbhyt4210.Designer.cs">
+      <DependentUpon>VPI02G001_duyetbhyt4210.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonForm\CommonForm.csproj">
+      <Project>{4D00EEA3-64CB-411A-981B-AECFDC91839A}</Project>
+      <Name>CommonForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{809C1373-7D03-44E4-9297-57BA6C7216D2}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\UserControl.csproj">
+      <Project>{d4298c86-6e38-409f-91a6-2bf8b2a2c1ad}</Project>
+      <Name>UserControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NTU01H022_ChuyenDoiTuong.resx">
+      <DependentUpon>NTU01H022_ChuyenDoiTuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H026_DoiBacSy.resx">
+      <DependentUpon>NTU01H026_DoiBacSy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H025_DoiPhongChiDinh.resx">
+      <DependentUpon>NTU01H025_DoiPhongChiDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H027_DoiGioChiDinh.resx">
+      <DependentUpon>NTU01H027_DoiGioChiDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H024_ToolSuaDuLieu.resx">
+      <DependentUpon>NTU01H024_ToolSuaDuLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H036_Suaphieu.resx">
+      <DependentUpon>NTU01H036_Suaphieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H037_SuaTheBhyt.resx">
+      <DependentUpon>NTU01H037_SuaTheBhyt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H038_SuaBacSiTH.resx">
+      <DependentUpon>NTU01H038_SuaBacSiTH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H038_SuaBacSiTH1.resx">
+      <DependentUpon>NTU01H038_SuaBacSiTH1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H039_ChinhSuaGiuong.resx">
+      <DependentUpon>NTU01H039_ChinhSuaGiuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="VPI01T001_Nhapthongtintt.resx">
+      <DependentUpon>VPI01T001_Nhapthongtintt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T001_ThemMST.resx">
+      <DependentUpon>VPI01T001_ThemMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T001_Capnhatphieuthu.resx">
+      <DependentUpon>VPI01T001_Capnhatphieuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T001_Xacnhan.resx">
+      <DependentUpon>VPI01T001_Xacnhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T001_thuvienphi.resx">
+      <DependentUpon>VPI01T001_thuvienphi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T001_Dichvusai.resx">
+      <DependentUpon>VPI01T001_Dichvusai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T002_capnhatsophieu.resx">
+      <DependentUpon>VPI01T002_capnhatsophieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T002_danhsachsophieuthu.resx">
+      <DependentUpon>VPI01T002_danhsachsophieuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T002_sophieuthu.resx">
+      <DependentUpon>VPI01T002_sophieuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T002_xoaphieuketchuyen.resx">
+      <DependentUpon>VPI01T002_xoaphieuketchuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T003_danhsachphieuthu.resx">
+      <DependentUpon>VPI01T003_danhsachphieuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T004_lichsuthanhtoan.resx">
+      <DependentUpon>VPI01T004_lichsuthanhtoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI01T006_thanhtoanvienphi.resx">
+      <DependentUpon>VPI01T006_thanhtoanvienphi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPI02G001_duyetbhyt4210.resx">
+      <DependentUpon>VPI02G001_duyetbhyt4210.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Cancel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\DeleteRed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Empty.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\True.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{809C1373-7D03-44E4-9297-57BA6C7216D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.Controls</RootNamespace>
+    <AssemblyName>VNPT.HIS.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPdfViewer.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="log4net">
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ChiDinhDichVuDto.cs" />
+    <Compile Include="Class\LISConnector.cs" />
+    <Compile Include="Class\ServiceChiDinhDichVu.cs" />
+    <Compile Include="Class\ServiceTabDanhSachBenhNhan.cs" />
+    <Compile Include="NgoaiTru\ucTabNGT02K002_KBHB_PHONGKHAM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabNGT02K002_KBHB_PHONGKHAM.Designer.cs">
+      <DependentUpon>ucTabNGT02K002_KBHB_PHONGKHAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabNGT02K078_DSTN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabNGT02K078_DSTN.Designer.cs">
+      <DependentUpon>ucTabNGT02K078_DSTN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucThongTinHanhChinh_TiepNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucThongTinHanhChinh_TiepNhan.Designer.cs">
+      <DependentUpon>ucThongTinHanhChinh_TiepNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucThongTinHanhChinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucThongTinHanhChinh.Designer.cs">
+      <DependentUpon>ucThongTinHanhChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabVienPhi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabVienPhi.Designer.cs">
+      <DependentUpon>ucTabVienPhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabPhieuVanChuyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabPhieuVanChuyen.Designer.cs">
+      <DependentUpon>ucTabPhieuVanChuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabVatTu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabVatTu.Designer.cs">
+      <DependentUpon>ucTabVatTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabThuoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabThuoc.Designer.cs">
+      <DependentUpon>ucTabThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabBenhAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabBenhAn.Designer.cs">
+      <DependentUpon>ucTabBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabCDHA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabCDHA.Designer.cs">
+      <DependentUpon>ucTabCDHA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabPhauThuatThuThuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabPhauThuatThuThuat.Designer.cs">
+      <DependentUpon>ucTabPhauThuatThuThuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabDanhSachBenhNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabDanhSachBenhNhan.Designer.cs">
+      <DependentUpon>ucTabDanhSachBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabXetNghiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NgoaiTru\ucTabXetNghiem.Designer.cs">
+      <DependentUpon>ucTabXetNghiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoiTru\NTU02D023_Thongtinhanhchinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NoiTru\NTU02D023_Thongtinhanhchinh.Designer.cs">
+      <DependentUpon>NTU02D023_Thongtinhanhchinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\frmPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\frmPrint.Designer.cs">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NGT02K062_MauSinhThiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NGT02K062_MauSinhThiet.Designer.cs">
+      <DependentUpon>NGT02K062_MauSinhThiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D003_DichVuDinhKem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D003_DichVuDinhKem.Designer.cs">
+      <DependentUpon>NTU02D003_DichVuDinhKem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D037_PhauthuatThuThuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D037_PhauthuatThuThuat.Designer.cs">
+      <DependentUpon>NTU02D037_PhauthuatThuThuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D038_SuaPhongThucHien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D038_SuaPhongThucHien.Designer.cs">
+      <DependentUpon>NTU02D038_SuaPhongThucHien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D040_DanhSachPhieuPhuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D040_DanhSachPhieuPhuThu.Designer.cs">
+      <DependentUpon>NTU02D040_DanhSachPhieuPhuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D043_DanhSachPhieuThuocDiKem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D043_DanhSachPhieuThuocDiKem.Designer.cs">
+      <DependentUpon>NTU02D043_DanhSachPhieuThuocDiKem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D070_ThoiGianDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D070_ThoiGianDonThuoc.Designer.cs">
+      <DependentUpon>NTU02D070_ThoiGianDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D077_DanhSachMienGiam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D077_DanhSachMienGiam.Designer.cs">
+      <DependentUpon>NTU02D077_DanhSachMienGiam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D078_DanhSachPhieuThuocVatTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D078_DanhSachPhieuThuocVatTu.Designer.cs">
+      <DependentUpon>NTU02D078_DanhSachPhieuThuocVatTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NTU02D081_Capnhat_PhieuDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NTU02D081_Capnhat_PhieuDT.Designer.cs">
+      <DependentUpon>NTU02D081_Capnhat_PhieuDT.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Duoc\" />
+    <Folder Include="VienPhi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NgoaiTru\ucTabNGT02K002_KBHB_PHONGKHAM.resx">
+      <DependentUpon>ucTabNGT02K002_KBHB_PHONGKHAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabNGT02K078_DSTN.resx">
+      <DependentUpon>ucTabNGT02K078_DSTN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucThongTinHanhChinh_TiepNhan.resx">
+      <DependentUpon>ucThongTinHanhChinh_TiepNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucThongTinHanhChinh.resx">
+      <DependentUpon>ucThongTinHanhChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabVienPhi.resx">
+      <DependentUpon>ucTabVienPhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabPhieuVanChuyen.resx">
+      <DependentUpon>ucTabPhieuVanChuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabVatTu.resx">
+      <DependentUpon>ucTabVatTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabThuoc.resx">
+      <DependentUpon>ucTabThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabCDHA.resx">
+      <DependentUpon>ucTabCDHA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabPhauThuatThuThuat.resx">
+      <DependentUpon>ucTabPhauThuatThuThuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabBenhAn.resx">
+      <DependentUpon>ucTabBenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabDanhSachBenhNhan.resx">
+      <DependentUpon>ucTabDanhSachBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgoaiTru\ucTabXetNghiem.resx">
+      <DependentUpon>ucTabXetNghiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoiTru\NTU02D023_Thongtinhanhchinh.resx">
+      <DependentUpon>NTU02D023_Thongtinhanhchinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\frmPrint.resx">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NGT02K062_MauSinhThiet.resx">
+      <DependentUpon>NGT02K062_MauSinhThiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D003_DichVuDinhKem.resx">
+      <DependentUpon>NTU02D003_DichVuDinhKem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D037_PhauthuatThuThuat.resx">
+      <DependentUpon>NTU02D037_PhauthuatThuThuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D038_SuaPhongThucHien.resx">
+      <DependentUpon>NTU02D038_SuaPhongThucHien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D040_DanhSachPhieuPhuThu.resx">
+      <DependentUpon>NTU02D040_DanhSachPhieuPhuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D043_DanhSachPhieuThuocDiKem.resx">
+      <DependentUpon>NTU02D043_DanhSachPhieuThuocDiKem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D070_ThoiGianDonThuoc.resx">
+      <DependentUpon>NTU02D070_ThoiGianDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D077_DanhSachMienGiam.resx">
+      <DependentUpon>NTU02D077_DanhSachMienGiam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D078_DanhSachPhieuThuocVatTu.resx">
+      <DependentUpon>NTU02D078_DanhSachPhieuThuocVatTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NTU02D081_Capnhat_PhieuDT.resx">
+      <DependentUpon>NTU02D081_Capnhat_PhieuDT.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turn off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.MainForm.HeThong.frmChangePassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.MainForm.HeThong.frmLogout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.MainForm.HeThong.frmMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.MainForm.HeThong.frmSelectDept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.NgoaiTru.TiepNhanBenhNhan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VNPT.HIS.QTHethong.DMC18_CHNV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printarea_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermark_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapit_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveclose_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groupbyresource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groupbyresource_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapit_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newcustomers_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newemployee_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newemployee_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailmerge_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\UserControl.csproj">
+      <Project>{D4298C86-6E38-409F-91A6-2BF8B2A2C1AD}</Project>
+      <Name>UserControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

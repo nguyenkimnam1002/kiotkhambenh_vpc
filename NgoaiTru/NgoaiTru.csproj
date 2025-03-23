@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51A82117-9CD2-49E0-81AC-277B4B3F0DDF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.NgoaiTru</RootNamespace>
+    <AssemblyName>VNPT.HIS.NgoaiTru</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net">
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ServicePhieuKhamBenh.cs" />
+    <Compile Include="Class\ResponsOjb.cs" />
+    <Compile Include="Class\ServiceTiepNhanBenhNhan.cs" />
+    <Compile Include="NGT02K002_KhamBenhHoiBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K002_KhamBenhHoiBenh.Designer.cs">
+      <DependentUpon>NGT02K002_KhamBenhHoiBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K001_KB_MHC_KhamBenhNgoaiTru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K001_KB_MHC_KhamBenhNgoaiTru.Designer.cs">
+      <DependentUpon>NGT02K001_KB_MHC_KhamBenhNgoaiTru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT01T001_TiepNhanKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT01T001_TiepNhanKhamBenh.Designer.cs">
+      <DependentUpon>NGT01T001_TiepNhanKhamBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K005_PhieuKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K005_PhieuKhamBenh.Designer.cs">
+      <DependentUpon>NGT02K005_PhieuKhamBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K016_ChiDinhDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K016_ChiDinhDichVu.Designer.cs">
+      <DependentUpon>NGT02K016_ChiDinhDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K041_ThietLapSLPK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K041_ThietLapSLPK.Designer.cs">
+      <DependentUpon>NGT02K041_ThietLapSLPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K044_CapThuocK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K044_CapThuocK.Designer.cs">
+      <DependentUpon>NGT02K044_CapThuocK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K051_XoaPhongKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K051_XoaPhongKham.Designer.cs">
+      <DependentUpon>NGT02K051_XoaPhongKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K060_KB_BenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K060_KB_BenhAn.Designer.cs">
+      <DependentUpon>NGT02K060_KB_BenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K061_QLBNHenKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K061_QLBNHenKham.Designer.cs">
+      <DependentUpon>NGT02K061_QLBNHenKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K061_THIETLAP_BS_PK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K061_THIETLAP_BS_PK.Designer.cs">
+      <DependentUpon>NGT02K061_THIETLAP_BS_PK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K088_GoiBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K088_GoiBN.Designer.cs">
+      <DependentUpon>NGT02K088_GoiBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU01H031_NhapBenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU01H031_NhapBenhAn.Designer.cs">
+      <DependentUpon>NTU01H031_NhapBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTU02D010_CapThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTU02D010_CapThuoc.Designer.cs">
+      <DependentUpon>NTU02D010_CapThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BAN01NT01_NgoaiTru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BAN01NT01_NgoaiTru.Designer.cs">
+      <DependentUpon>BAN01NT01_NgoaiTru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NGT02K002_KhamBenhHoiBenh.resx">
+      <DependentUpon>NGT02K002_KhamBenhHoiBenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K001_KB_MHC_KhamBenhNgoaiTru.resx">
+      <DependentUpon>NGT02K001_KB_MHC_KhamBenhNgoaiTru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT01T001_TiepNhanKhamBenh.resx">
+      <DependentUpon>NGT01T001_TiepNhanKhamBenh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K005_PhieuKhamBenh.resx">
+      <DependentUpon>NGT02K005_PhieuKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K016_ChiDinhDichVu.resx">
+      <DependentUpon>NGT02K016_ChiDinhDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K041_ThietLapSLPK.resx">
+      <DependentUpon>NGT02K041_ThietLapSLPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K044_CapThuocK.resx">
+      <DependentUpon>NGT02K044_CapThuocK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K051_XoaPhongKham.resx">
+      <DependentUpon>NGT02K051_XoaPhongKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K060_KB_BenhAn.resx">
+      <DependentUpon>NGT02K060_KB_BenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K061_THIETLAP_BS_PK.resx">
+      <DependentUpon>NGT02K061_THIETLAP_BS_PK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K088_GoiBN.resx">
+      <DependentUpon>NGT02K088_GoiBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU01H031_NhapBenhAn.resx">
+      <DependentUpon>NTU01H031_NhapBenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTU02D010_CapThuoc.resx">
+      <DependentUpon>NTU02D010_CapThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BAN01NT01_NgoaiTru.resx">
+      <DependentUpon>BAN01NT01_NgoaiTru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonForm\CommonForm.csproj">
+      <Project>{4d00eea3-64cb-411a-981b-aecfdc91839a}</Project>
+      <Name>CommonForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{809C1373-7D03-44E4-9297-57BA6C7216D2}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\UserControl.csproj">
+      <Project>{d4298c86-6e38-409f-91a6-2bf8b2a2c1ad}</Project>
+      <Name>UserControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VienPhi\VienPhi.csproj">
+      <Project>{84ba1910-65e6-4a63-836e-aefc74e18f76}</Project>
+      <Name>VienPhi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

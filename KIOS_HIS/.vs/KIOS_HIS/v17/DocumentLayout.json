@@ -1,0 +1,458 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\bvdakhoa\\bvdakhoa_kieu3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_kieu3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\confignew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\confignew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\capso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\capso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\capso_quetmabn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\capso_quetmabn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|KIOS_HIS||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvlvvpc\\lvvpc_kios_dha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvlvvpc\\lvvpc_kios_dha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvhdg\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvhdg\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvlvvpc\\lvvpc_kios_dha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvlvvpc\\lvvpc_kios_dha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\bvdakhoa_dangkykham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_dangkykham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\servicebhyt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\servicebhyt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvdakhoa\\bvdakhoa_kios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvdakhoa\\bvdakhoa_kios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02711D5-971C-429A-8D29-C777BDC3EB56}|..\\Common\\Common.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\common\\func.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\kios_his\\bvhdg\\phieuin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|solutionrelative:kios_his\\bvhdg\\phieuin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS\\KIOS_HIS.csproj|d:\\work\\his_l2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceBHYT.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\ServiceBHYT.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\ServiceBHYT.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\ServiceBHYT.cs",
+              "RelativeToolTip": "KIOS_HIS\\ServiceBHYT.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAUwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:11:18.428Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigNew.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\ConfigNew.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\ConfigNew.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\ConfigNew.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\ConfigNew.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:15:04.35Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Config.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\Config.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Config.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\Config.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:15:02.021Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CapSo.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\CapSo.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\CapSo.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\CapSo.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\CapSo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:15:00.026Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CapSo_QuetMaBN.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\CapSo_QuetMaBN.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\CapSo_QuetMaBN.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\CapSo_QuetMaBN.cs [Design]*",
+              "RelativeToolTip": "KIOS_HIS\\CapSo_QuetMaBN.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:14:58.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PhongKham.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\PhongKham.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\PhongKham.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\PhongKham.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\PhongKham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:14:48.32Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\Login.Designer.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.Designer.cs",
+              "RelativeToolTip": "KIOS_HIS\\Login.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAADgv6EAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:08:20.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BVDAKHOA_KIEU3.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:05:07.974Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BVDAKHOA_Kios.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAqwO0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:30:15.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KIOS_HIS",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\KIOS_HIS.csproj",
+              "RelativeDocumentMoniker": "KIOS_HIS\\KIOS_HIS.csproj",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\KIOS_HIS.csproj*",
+              "RelativeToolTip": "KIOS_HIS\\KIOS_HIS.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-11T03:26:13.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\Login.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:43:42.961Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BVDAKHOA_DangKyKham.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:26:23.712Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BVDAKHOA_DangKyKham.Designer.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.Designer.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.Designer.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.Designer.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwC4AAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:26:22.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BVDAKHOA_DangKyKham.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "ViewState": "AgIAAJQCAAAAAAAAAAAUwFkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T09:07:37.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\frmMain.Designer.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.Designer.cs",
+              "RelativeToolTip": "KIOS_HIS\\frmMain.Designer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:49:44.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PHIEUIN.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVHDG\\PHIEUIN.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVHDG\\PHIEUIN.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVHDG\\PHIEUIN.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVHDG\\PHIEUIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:48:04.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVHDG\\MainForm.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVHDG\\MainForm.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVHDG\\MainForm.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVHDG\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:47:53.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LVVPC_Kios_DHA.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:11:18.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Func.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\Common\\Func.cs",
+              "RelativeDocumentMoniker": "..\\Common\\Func.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\Common\\Func.cs",
+              "RelativeToolTip": "..\\Common\\Func.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T09:32:39.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LVVPC_Kios_DHA.Designer.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.Designer.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.Designer.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.Designer.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVLVVPC\\LVVPC_Kios_DHA.Designer.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADgv3QAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:11:18.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BVDAKHOA_Kios.Designer.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.Designer.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.Designer.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.Designer.cs",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.Designer.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAADgvykBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T01:26:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\MainForm.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\MainForm.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\MainForm.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:25:00.411Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\frmMain.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T01:17:01.938Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\frmMain.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs",
+              "RelativeToolTip": "KIOS_HIS\\frmMain.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswHkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:57:43.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\Login.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Login.cs",
+              "RelativeToolTip": "KIOS_HIS\\Login.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:56:07.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BVDAKHOA_Kios.cs [Design]",
+              "DocumentMoniker": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "RelativeDocumentMoniker": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "ToolTip": "D:\\WORK\\HIS_L2\\kiot_l2\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs [Design]",
+              "RelativeToolTip": "KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:31:31.979Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

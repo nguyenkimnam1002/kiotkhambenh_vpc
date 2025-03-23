@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>C:\CaiDatHISL2\Dev\|D:\Vsc\GPYT_HIS_L2\WORKING\20.Development\40.Code\WinForm\Setup\Test\|D:\Vsc\GPYT_HIS_L2\WORKING\20.Development\40.Code\WinForm\Setup\Dev\|E:\WORK\PUBLISH\|E:\WORK\setup\</PublishUrlHistory>
+    <InstallUrlHistory>https://histest.vnptsoftware.vn/vnpthis/winform/|https://histest.vnptsoftware.vn/vnpthis/winform/index.htm/|https://hisdev.vnptsoftware.vn/vnpthis/winform/index.htm/|https://hisdev.vnptsoftware.vn/vnpthis/winform/|http://10.252.7.10:8180/vnpthis/winform/</InstallUrlHistory>
+    <SupportUrlHistory>http://vnpt.vn/</SupportUrlHistory>
+    <UpdateUrlHistory>https://histest.vnptsoftware.vn/vnpthis/winform/|https://hisdev.vnptsoftware.vn/vnpthis/winform/|http://123.31.10.35/VnptHisDev/|http://123.31.10.35/VnptHisDev/index.htm/|http://123.31.10.35/VnptHisTest/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

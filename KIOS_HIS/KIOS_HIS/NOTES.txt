@@ -1,0 +1,11 @@
+NGƯỜI TẠO : SONDN 
+NGÀY TẠO : 16/10/2021
+NỘI DUNG: BỔ SUNG SỬA ĐỔI KIOS 
+
+1 SỐ LƯU Ý: 
+Func.set_log_file("req bhyt:"); : HÀM LƯU LOGS VÀO THƯ MỤC Ổ C
+// ham tim kiem thong tin benh nhan trong DB va fill thong tin len man hinh kios; 
+        private void HienThi_TenBN_TheoMaTimKiem()
+
+1/ BỔ SUNG CẤU HÌNH KIOS_IN_CHUNG VỚI CÁC GIÁ TRỊ CHO CÁC ĐƠN VỊ NHƯ SAU: // 1 LACVIET, 2 DNO, 3 DKLAN; 0: CAC DON VI CON LAI 
+2/ Bổ sung cấu hình KIOS_CHEDO_CKPK  // 0: cong kham => phong kham; 1: chon phong kham truoc, cong kham an theo phong kham; 

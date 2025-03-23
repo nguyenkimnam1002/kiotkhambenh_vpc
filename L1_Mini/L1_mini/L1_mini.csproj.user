@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\CaiDatHISL2\Kios_BVDAKHOA\|C:\CaiDatHISL2\L1Mini_NhietDoi\|C:\CaiDatHISL2\L1_Mini_DkHaNam\|C:\CaiDatHISL2\HISDUNGCHUNG\|C:\CaiDatHISL2\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://histestl2.vncare.vn//vnpthis/winform_L1_Mini/BVDAKHOA/|https://histest.vnptsoftware.vn/vnpthis/winform_L1_Mini/nhietdoi/|https://histest.vnptsoftware.vn/vnpthis/winform_L1_Mini/DKHNM/|https://his.vnptsoftware.vn/vnpthis/kios/|https://histest.vnptsoftware.vn/vnpthis/winform_L1_Mini/HISDUNGCHUNG/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

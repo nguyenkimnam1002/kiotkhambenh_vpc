@@ -1,0 +1,69 @@
+﻿2018-11-26 16:16:41,142 INFO VNPT.HIS.MainForm.frmMain frmMain_Load       - APP START
+2018-11-26 16:16:42,026 INFO VNPT.HIS.Common.SQLiteDataLayer Connect            - Conn sqltieData Source=Resources/sqlitedb.gz;Password=test;
+2018-11-26 16:16:42,458 INFO VNPT.HIS.Common.SQLiteDataLayer Connect            - Conn sqltie OKE
+2018-11-26 16:16:42,473 INFO VNPT.HIS.Common.Const INIT               - Conn sqlite = True
+2018-11-26 16:16:42,827 INFO VNPT.HIS.Common.SQLiteDataLayer cache_get          - local_username: 1 BVNT.ADMIN
+2018-11-26 16:16:45,577 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:16:45,845 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:16:46,200 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:16:49,985 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:16:50,032 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:16:50,082 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:16:53,286 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:16:53,304 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:16:53,351 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:15,810 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:15,826 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:15,872 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:17,774 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:17,789 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:17,827 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:19,029 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:19,044 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:19,091 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:41,446 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:41,462 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:41,522 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:43,838 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:43,858 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:43,906 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:45,269 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:45,284 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:45,337 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:46,370 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:46,385 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:46,439 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:47,496 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:47,506 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:47,554 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:48,356 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:48,371 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:48,418 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:49,173 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:49,189 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:49,242 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:49,973 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:49,989 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:50,042 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:50,758 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:50,774 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:50,821 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null
+2018-11-26 16:17:51,574 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN
+2018-11-26 16:17:51,590 INFO VNPT.HIS.Common.RequestHTTP sendRequest        - {"func":"doLogin","uuid":"","params":["{?=call prc_login(?2S,?3S)}","BVNT.ADMIN","Test@2018"]}
+ --> {"result": {},"error_code": 1,"error_msg": "Đã có lỗi xảy ra khi xử lý dữ liệu, Vui lòng thực hiện lại!"}
+2018-11-26 16:17:51,643 FATAL VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Lỗi userlogin: True- user null

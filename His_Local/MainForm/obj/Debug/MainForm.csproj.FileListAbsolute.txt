@@ -1,0 +1,14 @@
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\bin\Debug\MainForm.exe
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\bin\Debug\MainForm.pdb
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\bin\Debug\Newtonsoft.Json.dll
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\bin\Debug\System.Data.SQLite.dll
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.csprojResolveAssemblyReference.cache
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.formMain.resources
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.csproj.GenerateResource.Cache
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.exe
+D:\VNPT\HisLocalWinform\VNPTHISLOCAL\MainForm\obj\Debug\MainForm.pdb
+D:\VNPT\HisWinform\project\His_Local\MainForm\obj\Debug\MainForm.exe
+D:\VNPT\HisWinform\project\His_Local\MainForm\obj\Debug\MainForm.pdb
+E:\WORK\CODE_06.2017\His_Local\MainForm\obj\Debug\MainForm.exe
+E:\WORK\CODE_06.2017\His_Local\MainForm\obj\Debug\MainForm.pdb

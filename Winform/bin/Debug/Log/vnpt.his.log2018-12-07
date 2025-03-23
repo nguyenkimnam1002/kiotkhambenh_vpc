@@ -1,0 +1,6 @@
+﻿2018-12-07 10:48:35,464 INFO VNPT.HIS.MainForm.frmMain frmMain_Load       - APP START
+2018-12-07 10:48:35,887 INFO VNPT.HIS.Common.SQLiteDataLayer Connect            - Conn sqltieData Source=Resources/sqlitedb.gz;Password=test;
+2018-12-07 10:48:36,636 INFO VNPT.HIS.Common.SQLiteDataLayer Connect            - Conn sqltie OKE
+2018-12-07 10:48:36,636 INFO VNPT.HIS.Common.Const INIT               - Conn sqlite = True
+2018-12-07 10:48:37,085 INFO VNPT.HIS.Common.SQLiteDataLayer cache_get          - local_username: 1 BVNT.ADMIN
+2018-12-07 10:49:13,867 INFO VNPT.HIS.MainForm.HeThong.frmLogin LoginSubmit        - Login: BVNT.ADMIN

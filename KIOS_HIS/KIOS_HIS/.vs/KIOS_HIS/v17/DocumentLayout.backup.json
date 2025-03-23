@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|d:\\vnpt\\kios\\pm2_vnpthisl2_winform_vpc\\kios_his\\kios_his\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|KIOS_HIS||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\bvdakhoa\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:bvdakhoa\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:bvdakhoa\\bvdakhoa_kios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\bvdakhoa\\bvdakhoa_kieu3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:bvdakhoa\\bvdakhoa_kieu3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{002941AF-E119-4F12-88A5-C3EF5F099F65}|KIOS_HIS.csproj|solutionrelative:bvdakhoa\\bvdakhoa_dangkykham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.config",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-23T00:10:37.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KIOS_HIS",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\KIOS_HIS.csproj",
+              "RelativeDocumentMoniker": "KIOS_HIS.csproj",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\KIOS_HIS.csproj",
+              "RelativeToolTip": "KIOS_HIS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-23T00:09:57.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Config.cs",
+              "RelativeDocumentMoniker": "Config.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\Config.cs",
+              "RelativeToolTip": "Config.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T00:09:25.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T23:35:39.71Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\MainForm.cs",
+              "RelativeDocumentMoniker": "BVDAKHOA\\MainForm.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\MainForm.cs [Design]",
+              "RelativeToolTip": "BVDAKHOA\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T23:56:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BVDAKHOA_Kios.cs [Design]",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "RelativeDocumentMoniker": "BVDAKHOA\\BVDAKHOA_Kios.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_Kios.cs [Design]",
+              "RelativeToolTip": "BVDAKHOA\\BVDAKHOA_Kios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T23:56:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BVDAKHOA_KIEU3.cs [Design]",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs",
+              "RelativeDocumentMoniker": "BVDAKHOA\\BVDAKHOA_KIEU3.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_KIEU3.cs [Design]",
+              "RelativeToolTip": "BVDAKHOA\\BVDAKHOA_KIEU3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T23:56:14.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BVDAKHOA_DangKyKham.cs [Design]",
+              "DocumentMoniker": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "RelativeDocumentMoniker": "BVDAKHOA\\BVDAKHOA_DangKyKham.cs",
+              "ToolTip": "D:\\VNPT\\kios\\pm2_vnpthisl2_winform_vpc\\KIOS_HIS\\KIOS_HIS\\BVDAKHOA\\BVDAKHOA_DangKyKham.cs [Design]",
+              "RelativeToolTip": "BVDAKHOA\\BVDAKHOA_DangKyKham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T23:56:08.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

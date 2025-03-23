@@ -1,0 +1,4 @@
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Release\Common.csproj.AssemblyReference.cache
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\Common\obj\Release\Common.csproj.AssemblyReference.cache
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\Common\obj\Release\Common.csproj.CoreCompileInputs.cache

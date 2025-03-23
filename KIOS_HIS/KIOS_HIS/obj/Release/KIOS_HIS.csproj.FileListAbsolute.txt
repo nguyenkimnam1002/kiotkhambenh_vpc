@@ -1,0 +1,68 @@
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.AssemblyReference.cache
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BM2.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.DangKyKham.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BND.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_DangKyKham.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_Kios.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_KIEU3.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVDAKHOA.MainForm.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo_QuetMaBN.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Config.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ConfigNew.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_DKHNM.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.frmMain.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Login.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.PhongKham.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.Properties.Resources.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ViewDocs.resources
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.GenerateResource.cache
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.CoreCompileInputs.cache
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BM2.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.DangKyKham.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BND.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_DangKyKham.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_Kios.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_KIEU3.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVDAKHOA.MainForm.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVHDG_DangKyKham.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVHDG_Kios.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVHDG.MainForm.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo_QuetMaBN.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Config.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ConfigNew.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_DKHNM.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.frmMain.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Login.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.PhongKham.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.Properties.Resources.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ViewDocs.resources
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.GenerateResource.Cache
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.AssemblyReference.cache
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BM2.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.DangKyKham.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_BND.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_DangKyKham.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_Kios.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVDAKHOA_KIEU3.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVDAKHOA.MainForm.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVHDG_DangKyKham.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVHDG_Kios.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVHDG.MainForm.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.BVTNN_DangKyKham.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVTNN.TNN_Kios.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVTNN.TNN_Kios_DHA.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.BVTNN.TNN_Setting.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.CapSo_QuetMaBN.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Config.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ConfigNew.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Kios_DKHNM.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.frmMain.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.Login.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.PhongKham.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.Properties.Resources.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\L1_Mini.ViewDocs.resources
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.GenerateResource.cache
+E:\Project\CongViec\pm2_vnpthisl2_winform_Old\KIOS_HIS\KIOS_HIS\obj\Release\KIOS_HIS.csproj.CoreCompileInputs.cache

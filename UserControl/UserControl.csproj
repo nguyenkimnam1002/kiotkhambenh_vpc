@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D4298C86-6E38-409F-91A6-2BF8B2A2C1AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.UserControl</RootNamespace>
+    <AssemblyName>VNPT.HIS.UserControl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyFormPainter.cs" />
+    <Compile Include="SubForm\CustomMinimizedRibbonPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CustomRibbonMinimizedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\CustomRibbonMinimizedControlViewInfo.cs" />
+    <Compile Include="ucMyRibbonControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\MyRibbonPageGroupViewInfo.cs" />
+    <Compile Include="SubForm\MyRibbonPanelViewInfo.cs" />
+    <Compile Include="SubForm\MyRibbonViewInfo.cs" />
+    <Compile Include="SubForm\NGT02K052_ChinhSuaBenhPhu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NGT02K052_ChinhSuaBenhPhu.Designer.cs">
+      <DependentUpon>NGT02K052_ChinhSuaBenhPhu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBarMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBarMenu.Designer.cs">
+      <DependentUpon>ucBarMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSearchLookup2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSearchLookup2.Designer.cs">
+      <DependentUpon>ucSearchLookup2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucComboBoxSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucComboBoxSearch.Designer.cs">
+      <DependentUpon>ucComboBoxSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucComboBox.Designer.cs">
+      <DependentUpon>ucComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucComboBoxTextSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucComboBoxTextSearch.Designer.cs">
+      <DependentUpon>ucComboBoxTextSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucGridview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucGridview.Designer.cs">
+      <DependentUpon>ucGridview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPage.Designer.cs">
+      <DependentUpon>ucPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSearchLookup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSearchLookup.Designer.cs">
+      <DependentUpon>ucSearchLookup.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SubForm\NGT02K052_ChinhSuaBenhPhu.resx">
+      <DependentUpon>NGT02K052_ChinhSuaBenhPhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBarMenu.resx">
+      <DependentUpon>ucBarMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSearchLookup2.resx">
+      <DependentUpon>ucSearchLookup2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucComboBoxSearch.resx">
+      <DependentUpon>ucComboBoxSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucComboBox.resx">
+      <DependentUpon>ucComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucComboBoxTextSearch.resx">
+      <DependentUpon>ucComboBoxTextSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucGridview.resx">
+      <DependentUpon>ucGridview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPage.resx">
+      <DependentUpon>ucPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSearchLookup.resx">
+      <DependentUpon>ucSearchLookup.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

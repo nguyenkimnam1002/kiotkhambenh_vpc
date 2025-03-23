@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{002941AF-E119-4F12-88A5-C3EF5F099F65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KIOS_HIS</RootNamespace>
+    <AssemblyName>KIOS_HIS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\Publish Code\HisL2\Kios_vpc\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <UpdateUrl>https://histestl2.vncare.vn//vnpthis/winform_L1_Mini/BVDAKHOA/</UpdateUrl>
+    <ProductName>KIOS HIS</ProductName>
+    <PublisherName>App kios vnpthis</PublisherName>
+    <SuiteName>App kios vnpthis.</SuiteName>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>120</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1C74B24182E2E64095F203471F3820EE0DB69AC9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>KIOS_HIS_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL file\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\DLL file\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>..\DLL file\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>..\DLL file\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\DLL file\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BM2\Kios_BM2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM2\Kios_BM2.Designer.cs">
+      <DependentUpon>Kios_BM2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BND\DangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BND\DangKyKham.Designer.cs">
+      <DependentUpon>DangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BND\Kios_BND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BND\Kios_BND.Designer.cs">
+      <DependentUpon>Kios_BND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_DangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_DangKyKham.Designer.cs">
+      <DependentUpon>BVDAKHOA_DangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_Kios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_Kios.Designer.cs">
+      <DependentUpon>BVDAKHOA_Kios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_KIEU3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVDAKHOA\BVDAKHOA_KIEU3.Designer.cs">
+      <DependentUpon>BVDAKHOA_KIEU3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVDAKHOA\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVDAKHOA\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVDAKHOA\PHIEUIN.cs" />
+    <Compile Include="BVHDG\BVHDG_DangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVHDG\BVHDG_DangKyKham.Designer.cs">
+      <DependentUpon>BVHDG_DangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVHDG\BVHDG_Kios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVHDG\BVHDG_Kios.Designer.cs">
+      <DependentUpon>BVHDG_Kios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVHDG\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVHDG\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVHDG\PHIEUIN.cs" />
+    <Compile Include="BVLVVPC\BVLVVPC_DangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVLVVPC\BVLVVPC_DangKyKham.Designer.cs">
+      <DependentUpon>BVLVVPC_DangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVLVVPC\PHIEUIN.cs" />
+    <Compile Include="BVLVVPC\LVVPC_Kios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVLVVPC\LVVPC_Kios.Designer.cs">
+      <DependentUpon>LVVPC_Kios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVLVVPC\LVVPC_Kios_DHA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVLVVPC\LVVPC_Kios_DHA.Designer.cs">
+      <DependentUpon>LVVPC_Kios_DHA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVLVVPC\LVVPC_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVLVVPC\LVVPC_Setting.Designer.cs">
+      <DependentUpon>LVVPC_Setting.cs</DependentUpon>
+    </Compile>
+
+    <!-- BVVINHPHUC -->
+    
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_DangKyKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_DangKyKham.Designer.cs">
+      <DependentUpon>BVVINHPHUC_DangKyKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_Kios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_Kios.Designer.cs">
+      <DependentUpon>BVVINHPHUC_Kios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_KIEU3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVVINHPHUC\BVVINHPHUC_KIEU3.Designer.cs">
+      <DependentUpon>BVVINHPHUC_KIEU3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVVINHPHUC\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BVVINHPHUC\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BVVINHPHUC\PHIEUIN.cs" />
+    <!-- End BVVINHPHUC -->
+    <Compile Include="CapSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapSo.Designer.cs">
+      <DependentUpon>CapSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapSo_QuetMaBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapSo_QuetMaBN.Designer.cs">
+      <DependentUpon>CapSo_QuetMaBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassObject.cs" />
+    <Compile Include="Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigNew.Designer.cs">
+      <DependentUpon>ConfigNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKHNM\Kios_DKHNM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKHNM\Kios_DKHNM.Designer.cs">
+      <DependentUpon>Kios_DKHNM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhongKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhongKham.Designer.cs">
+      <DependentUpon>PhongKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceBHYT.cs" />
+    <Compile Include="ViewDocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDocs.Designer.cs">
+      <DependentUpon>ViewDocs.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BM2\Kios_BM2.resx">
+      <DependentUpon>Kios_BM2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BND\DangKyKham.resx">
+      <DependentUpon>DangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BND\Kios_BND.resx">
+      <DependentUpon>Kios_BND.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVDAKHOA\BVDAKHOA_DangKyKham.resx">
+      <DependentUpon>BVDAKHOA_DangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVDAKHOA\BVDAKHOA_Kios.resx">
+      <DependentUpon>BVDAKHOA_Kios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVDAKHOA\BVDAKHOA_KIEU3.resx">
+      <DependentUpon>BVDAKHOA_KIEU3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVDAKHOA\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVHDG\BVHDG_DangKyKham.resx">
+      <DependentUpon>BVHDG_DangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVHDG\BVHDG_Kios.resx">
+      <DependentUpon>BVHDG_Kios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVHDG\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVLVVPC\BVLVVPC_DangKyKham.resx">
+      <DependentUpon>BVLVVPC_DangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVLVVPC\LVVPC_Kios.resx">
+      <DependentUpon>LVVPC_Kios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVLVVPC\LVVPC_Kios_DHA.resx">
+      <DependentUpon>LVVPC_Kios_DHA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVLVVPC\LVVPC_Setting.resx">
+      <DependentUpon>LVVPC_Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- BVVINHPHUC -->
+    
+    <EmbeddedResource Include="BVVINHPHUC\BVVINHPHUC_DangKyKham.resx">
+      <DependentUpon>BVVINHPHUC_DangKyKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVVINHPHUC\BVVINHPHUC_Kios.resx">
+      <DependentUpon>BVVINHPHUC_Kios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVVINHPHUC\BVVINHPHUC_KIEU3.resx">
+      <DependentUpon>BVVINHPHUC_KIEU3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BVVINHPHUC\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- End bvvinhphuc  -->
+    <EmbeddedResource Include="CapSo.resx">
+      <DependentUpon>CapSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapSo_QuetMaBN.resx">
+      <DependentUpon>CapSo_QuetMaBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config.resx">
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigNew.resx">
+      <DependentUpon>ConfigNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKHNM\Kios_DKHNM.resx">
+      <DependentUpon>Kios_DKHNM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhongKham.resx">
+      <DependentUpon>PhongKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ViewDocs.resx">
+      <DependentUpon>ViewDocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="KIOS_HIS_1_TemporaryKey.pfx" />
+    <None Include="KIOS_HIS_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\icons8-loading.gif" />
+    <None Include="Resources\g0R5.gif" />
+    <None Include="Resources\23c6ddc3-0063-455a-a25d-24b14f-unscreen %281%29.gif" />
+    <None Include="Resources\23c6ddc3-0063-455a-a25d-24b14f-unscreen.gif" />
+    <None Include="Resources\ezgif-5-1741e0e137+%281%29.gif" />
+    <None Include="Resources\icons8-delete-60.png" />
+    <None Include="Resources\icons8-delete-30.png" />
+    <None Include="Resources\icons8-delete-32.png" />
+    <None Include="Resources\icons8-search-in-list.gif" />
+    <None Include="Resources\icons8-signing-a-document-32.png" />
+    <None Include="Resources\icons8-search-account-64.png" />
+    <None Include="Resources\icons8-search-account-64 %281%29.png" />
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\bg %282%29.jpg" />
+    <None Include="Resources\bg2.jpg" />
+    <None Include="Resources\bg4.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\icons8-hospital-96.ico" />
+    <None Include="Resources\icons8-hospital-96.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\config.png" />
+    <None Include="Resources\icons8-order-48.png" />
+    <None Include="Resources\icons8-sort-by-modified-date-48.png" />
+    <Content Include="Resources\MAU_STT_DKLCI.docx" />
+    <Content Include="Resources\MAU_STT_LACVIET.docx" />
+    <Content Include="Resources\MAU_STT_DKDNO.docx" />
+    <Content Include="Resources\MAU_STT_NANTTH.docx" />
+    <Content Include="Resources\MAU_STT_DKLAN.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bg_10.png" />
+    <Content Include="Resources\bg_6.png" />
+    <Content Include="Resources\bg_7.png" />
+    <Content Include="Resources\bg_8.png" />
+    <Content Include="Resources\bg_9.png" />
+    <Content Include="Resources\bg_bachmai - Copy.png" />
+    <Content Include="Resources\bg_bachmai.png" />
+    <Content Include="Resources\bg_default.png" />
+    <Content Include="Resources\bg_dkhanam.png" />
+    <Content Include="Resources\bg_khanhhoa.png" />
+    <Content Include="Resources\bg_nhietdoi.png" />
+    <Content Include="Resources\bg_vietduc.png" />
+    <Content Include="Resources\btnBack.png" />
+    <Content Include="Resources\btnDong.Image.png" />
+    <Content Include="Resources\btnSubmit.Image.png" />
+    <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\MAU_KC- Copy.docx" />
+    <Content Include="Resources\MAU_STT.docx" />
+    <Content Include="Resources\MAU_STT_10.docx" />
+    <Content Include="Resources\MAU_STT_6.docx" />
+    <Content Include="Resources\MAU_STT_7.docx" />
+    <Content Include="Resources\MAU_STT_8.docx" />
+    <Content Include="Resources\MAU_STT_9.docx" />
+    <Content Include="Resources\MAU_STT_9364.docx" />
+    <Content Include="Resources\MAU_STT_BACHMAI.docx" />
+    <Content Include="Resources\MAU_STT_DEFAULT.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MAU_STT_DKHANAM.docx" />
+    <Content Include="Resources\MAU_STT_KHANHHOA.docx" />
+    <Content Include="Resources\MAU_STT_NHIETDOI test.docx" />
+    <Content Include="Resources\MAU_STT_NHIETDOI.docx" />
+    <Content Include="Resources\MAU_STT_VIETDUC.docx" />
+    <None Include="Resources\ScanQR.bmp" />
+    <None Include="Resources\Scan-QR.jpg" />
+    <None Include="Resources\Scan-QR1.jpg" />
+    <None Include="Resources\Scan.gif" />
+    <None Include="Resources\Scan-QR.png" />
+    <Content Include="Resources\timkiem.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

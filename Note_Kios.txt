@@ -1,0 +1,38 @@
+
+
+* Code kios mới: dùng cho vb Vũ thư; VIME + các bv mới khác
+- pm2_vnpthisl2_winform\KIOS_HIS  --> chạy project KIOS_HIS.sln 
+- Khi publish đặt link update:
+	BVDAKHOA: https://histestl2.vncare.vn//vnpthis/winform_L1_Mini/BVDAKHOA/
+	HISDUNGCHUNG: https://histestl2.vncare.vn//vnpthis/winform_L1_Mini/HISDUNGCHUNG/
+- Khác bản cũ: dùng config mới (ConfigNew.cs) tất cả các biến config khai biến cấu hình trên web (comment các biến ở đầu file ConfigNew.cs); trừ accs biến sau dưới app: 
+	Đường dẫn server: Const.LinkService
+	Khởi động cùng win; tự động đăng nhập lần sau; chế độ full màn hình
+
+
+
+* Code kios cũ: dùng cho bv Bệnh nhiệt đới; Đa khoa Hà nam
+- pm2_vnpthisl2_winform\L1_Mini  --> chạy project L1_Mini.sln
+- dòng code khởi tạo chạy cho bv nào tại frmMain.cs: Const.L1_BV_DEFAULT = 4; // 0:TEST; 1:BM2; 2:VD2; 3:KHA; 4:BND; 5:HNM;  
+- Khi publish đặt link update:
+	BND: https://histest.vnptsoftware.vn/vnpthis/winform_L1_Mini/nhietdoi/
+	HNM: https://histest.vnptsoftware.vn/vnpthis/winform_L1_Mini/DKHNM/
+	
+* (chung)Luồng code chạy bắt đầu từ: frmMain.cs --> hàm frmMain_Load: mở form đăng nhập, nếu đn thành công --> vào Login_Suss(): kiểm tra cấu hình của bv nào mà chạy các form tương ứng.
+	
+	
+* Link up và tải app: 
+https://histestl2.vncare.vn/vnpthis/winform_L1_Mini/BVDAKHOA/index.htm
+https://histestl2.vncare.vn/vnpthis/winform_L1_Mini/HISDUNGCHUNG/index.htm
+https://histestl2.vncare.vn/vnpthis/winform_L1_Mini/nhietdoi/index.htm
+https://histestl2.vncare.vn/vnpthis/winform_L1_Mini/dkhanam/index.htm   	
+(nếu ko tải đc thì chuyển trực tiếp bộ cài)
+
+
+* Code Kios Bệnh viện Đa khoa huyện định Hóa - Thái Nguyên
+- Mở kios cấp số cho định hóa: KIOS_APP_KIEUCAPSO = 4
+- Mẫu giấy in stt: KIOS_APP_MAUSTT = "tên file (k bao gồm phần mở rộng)"
+- Tên sở y tế: KIOS_APP_SYT
+- Tên Bệnh viện: KIOS_APP_TENBV
+- Cảnh báo tiếp nhận quá số lượng bệnh nhân 1 bác sĩ 1 ngày: CHECK65BHYT
+Các cấu hình khác tương tự luồng core

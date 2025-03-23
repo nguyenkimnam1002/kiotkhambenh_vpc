@@ -1,0 +1,159 @@
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_mini.csproj.GenerateResource.Cache
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.xml
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Resources\btnSubmit.Image.png
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Resources\btnDong.Image.png
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT.docx
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\log4net.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\System.Data.SQLite.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Newtonsoft.Json.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Spire.Pdf.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Spire.License.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\Microsoft.mshtml.dll
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.pdb
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_mini.csprojResolveAssemblyReference.cache
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.Properties.Resources.resources
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\L1_Mini.pdb
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.Form1.resources
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.frmMain.resources
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.Login.resources
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.pdb
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.manifest
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\L1_Mini.application
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe.manifest
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\obj\Debug\L1_Mini.application
+E:\WORK\L1_MINI_APP\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.config
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\bg_bachmai.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\bg_default.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\bg_khanhhoa.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\bg_nhietdoi.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\bg_vietduc.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_BACHMAI.docx
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_VIETDUC.docx
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_DEFAULT.docx
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_KHANHHOA.docx
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_NHIETDOI.docx
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\btnSubmit.Image.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Resources\btnDong.Image.png
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.config
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.manifest
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\L1_Mini.application
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\L1_Mini.pdb
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Newtonsoft.Json.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\log4net.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Spire.Pdf.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\System.Data.SQLite.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Spire.License.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\Microsoft.mshtml.dll
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.pdb
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.xml
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_mini.csprojResolveAssemblyReference.cache
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.CapSo_QuetMaBN.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.CapSo.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.Config.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.PhongKham.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.SttKham.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.frmMain.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.Login.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.Properties.Resources.resources
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_mini.csproj.GenerateResource.Cache
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe.licenses
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe.manifest
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.application
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.pdb
+E:\WORK\CODE_06.2017\L1_Mini\L1_mini\obj\Debug\L1_Mini.ViewDocs.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_mini.csprojResolveAssemblyReference.cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.CapSo_QuetMaBN.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.CapSo.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.Config.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.PhongKham.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.SttKham.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.frmMain.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.Login.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.Properties.Resources.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.ViewDocs.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_mini.csproj.GenerateResource.Cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe.licenses
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\bg_bachmai.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\bg_default.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\bg_khanhhoa.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\bg_nhietdoi.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\bg_vietduc.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_BACHMAI.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_VIETDUC.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_DEFAULT.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_KHANHHOA.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\MAU_STT_NHIETDOI.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\btnSubmit.Image.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Resources\btnDong.Image.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.config
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe.manifest
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\L1_Mini.application
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\L1_Mini.exe
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\L1_Mini.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\log4net.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Spire.Pdf.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\System.Data.SQLite.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Spire.License.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\Microsoft.mshtml.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\VNPT.HIS.Common.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\bin\Debug\DocumentFormat.OpenXml.xml
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\Interop.AccessTcp.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_mini.csproj.ResolveComReference.cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.exe.manifest
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini\L1_mini\obj\Debug\L1_Mini.application
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\L1_Mini.exe.config
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\Interop.AccessTcp.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_mini.csproj.ResolveComReference.cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.exe
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_mini.csprojResolveAssemblyReference.cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.CapSo_QuetMaBN.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.CapSo.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.Config.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.PhongKham.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.SttKham.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.frmMain.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.Login.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.Properties.Resources.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.ViewDocs.resources
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_mini.csproj.GenerateResource.Cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.exe.licenses
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\bg_bachmai.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\bg_default.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\bg_khanhhoa.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\bg_nhietdoi.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\bg_vietduc.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\MAU_STT_BACHMAI.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\MAU_STT_VIETDUC.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\MAU_STT_DEFAULT.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\MAU_STT_KHANHHOA.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\MAU_STT_NHIETDOI.docx
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\btnSubmit.Image.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Resources\btnDong.Image.png
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\L1_Mini.exe.manifest
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\L1_Mini.application
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\L1_Mini.exe
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\L1_Mini.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\DocumentFormat.OpenXml.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\VNPT.HIS.Common.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\log4net.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Spire.Pdf.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\System.Data.SQLite.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Spire.License.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\Microsoft.mshtml.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\VNPT.HIS.Common.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\bin\Debug\DocumentFormat.OpenXml.xml
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.exe.manifest
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\L1_Mini - BM2\L1_mini\obj\Debug\L1_Mini.application

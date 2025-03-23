@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26F00FCE-4F7C-4522-9511-6FB6895F559D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPT.HIS.QTHethong</RootNamespace>
+    <AssemblyName>VNPT.HIS.QTHethong</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ResponseObj.cs" />
+    <Compile Include="Class\ServiceDMC18CHNV.cs" />
+    <Compile Include="DMC02_CAUHINH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMC02_CAUHINH.Designer.cs">
+      <DependentUpon>DMC02_CAUHINH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMC02_DM_CAUHINH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMC02_DM_CAUHINH.Designer.cs">
+      <DependentUpon>DMC02_DM_CAUHINH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMC02_DM_CAUHINH_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMC02_DM_CAUHINH_USER.Designer.cs">
+      <DependentUpon>DMC02_DM_CAUHINH_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMC18_CHNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMC18_CHNV.Designer.cs">
+      <DependentUpon>DMC18_CHNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K055_CachDungThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K055_CachDungThuoc.Designer.cs">
+      <DependentUpon>NGT02K055_CachDungThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMC54_PHONGHIENTHI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMC54_PHONGHIENTHI.Designer.cs">
+      <DependentUpon>DMC54_PHONGHIENTHI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGT02K042_LoiDanBS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NGT02K042_LoiDanBS.Designer.cs">
+      <DependentUpon>NGT02K042_LoiDanBS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DMC02_CAUHINH.resx">
+      <DependentUpon>DMC02_CAUHINH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMC02_DM_CAUHINH.resx">
+      <DependentUpon>DMC02_DM_CAUHINH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMC02_DM_CAUHINH_USER.resx">
+      <DependentUpon>DMC02_DM_CAUHINH_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMC18_CHNV.resx">
+      <DependentUpon>DMC18_CHNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMC54_PHONGHIENTHI.resx">
+      <DependentUpon>DMC54_PHONGHIENTHI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K055_CachDungThuoc.resx">
+      <DependentUpon>NGT02K055_CachDungThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NGT02K042_LoiDanBS.resx">
+      <DependentUpon>NGT02K042_LoiDanBS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonForm\CommonForm.csproj">
+      <Project>{4d00eea3-64cb-411a-981b-aecfdc91839a}</Project>
+      <Name>CommonForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f02711d5-971c-429a-8d29-c777bdc3eb56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\UserControl.csproj">
+      <Project>{d4298c86-6e38-409f-91a6-2bf8b2a2c1ad}</Project>
+      <Name>UserControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

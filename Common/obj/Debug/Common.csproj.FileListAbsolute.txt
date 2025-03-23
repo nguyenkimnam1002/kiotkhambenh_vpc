@@ -1,0 +1,58 @@
+E:\WORK\CODE_06.2017\Common\bin\Debug\VNPT.HIS.Common.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\VNPT.HIS.Common.pdb
+E:\WORK\CODE_06.2017\Common\bin\Debug\log4net.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\Newtonsoft.Json.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\Spire.License.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\Spire.Pdf.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\System.Data.SQLite.dll
+E:\WORK\CODE_06.2017\Common\bin\Debug\Microsoft.mshtml.dll
+E:\WORK\CODE_06.2017\Common\obj\Debug\VNPT.HIS.Common.dll
+E:\WORK\CODE_06.2017\Common\obj\Debug\VNPT.HIS.Common.pdb
+E:\WORK\CODE_06.2017\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\bin\Debug\Microsoft.mshtml.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.dll
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.pdb
+E:\CODE_WINFORM\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.dll
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.pdb
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\bin\Debug\Microsoft.mshtml.dll
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csproj.CopyComplete
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.dll
+E:\VNPT\PM2_VNPTHISL2_KIOSK\winform\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.pdb
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.pdb
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.dll
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csproj.CopyComplete
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.dll
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.pdb
+D:\PM2_VNPTHISL2_CODE_DEV\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.dll
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\bin\Debug\VNPT.HIS.Common.pdb
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\bin\Debug\Newtonsoft.Json.dll
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.dll
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\obj\Debug\VNPT.HIS.Common.pdb
+D:\Work\HIS\L2\Source Code Kios\pm2_vnpthisl2_winform\Common\bin\Debug\Newtonsoft.Json.xml
+E:\Project\pm2_vnpthisl2_winform_Old\Common\bin\Debug\VNPT.HIS.Common.dll
+E:\Project\pm2_vnpthisl2_winform_Old\Common\bin\Debug\VNPT.HIS.Common.pdb
+E:\Project\pm2_vnpthisl2_winform_Old\Common\bin\Debug\Newtonsoft.Json.dll
+E:\Project\pm2_vnpthisl2_winform_Old\Common\bin\Debug\Microsoft.mshtml.dll
+E:\Project\pm2_vnpthisl2_winform_Old\Common\bin\Debug\Newtonsoft.Json.xml
+E:\Project\pm2_vnpthisl2_winform_Old\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+E:\Project\pm2_vnpthisl2_winform_Old\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\Project\pm2_vnpthisl2_winform_Old\Common\obj\Debug\Common.csproj.CopyComplete
+E:\Project\pm2_vnpthisl2_winform_Old\Common\obj\Debug\VNPT.HIS.Common.dll
+E:\Project\pm2_vnpthisl2_winform_Old\Common\obj\Debug\VNPT.HIS.Common.pdb
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\bin\Debug\VNPT.HIS.Common.dll
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\bin\Debug\VNPT.HIS.Common.pdb
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\bin\Debug\Newtonsoft.Json.dll
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\bin\Debug\Microsoft.mshtml.dll
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\bin\Debug\Newtonsoft.Json.xml
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\obj\Debug\Common.csproj.Up2Date
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\obj\Debug\VNPT.HIS.Common.dll
+D:\WORK\HIS_L2\kiot_l2\pm2_vnpthisl2_winform_vpc\Common\obj\Debug\VNPT.HIS.Common.pdb
