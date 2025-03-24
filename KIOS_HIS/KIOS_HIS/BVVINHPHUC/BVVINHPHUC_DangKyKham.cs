@@ -6,6 +6,7 @@ using System.Drawing;
 using VNPT.HIS.Common;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace L1_Mini
 {
@@ -17,7 +18,140 @@ namespace L1_Mini
         // 0: cong kham => phong kham; 1: chon phong kham truoc, cong kham an theo phong kham; 
 
         string KIOS_APP_PHONGTN = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_PHONGTN");
-        string KIOS_APP_DICHVUTN = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_DICHVUTN"); 
+        string KIOS_APP_DICHVUTN = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_DICHVUTN");
+
+        // VPC thay đổi giao diện
+        private void InitializeModernUI()
+        {
+            // Thiết lập form chính
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.BackColor = Color.White;
+
+            // Tạo header panel mới với màu VNPT
+            Panel headerPanel = new Panel();
+            headerPanel.BackColor = Color.FromArgb(0, 102, 204); // Màu xanh VNPT
+            headerPanel.Dock = DockStyle.Top;
+            headerPanel.Height = 80;
+
+            // Thêm logo VNPT vào góc trái
+            PictureBox logoVnpt = new PictureBox();
+            logoVnpt.SizeMode = PictureBoxSizeMode.Zoom;
+            logoVnpt.Size = new Size(60, 60);
+            logoVnpt.Location = new Point(10, 10);
+            logoVnpt.BackColor = Color.Transparent;
+
+            try
+            {
+                string logoPath = Path.Combine(Application.StartupPath, "vnpt_logo.png");
+                if (File.Exists(logoPath))
+                {
+                    using (MemoryStream ms = new MemoryStream(File.ReadAllBytes(logoPath)))
+                    {
+                        logoVnpt.Image = Image.FromStream(ms);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi tải logo: " + ex.Message);
+            }
+
+            headerPanel.Controls.Add(logoVnpt);
+
+            // Thêm tiêu đề "TRUNG TÂM Y TẾ VĨNH TƯỜNG" vào header
+            Label titleLabel = new Label();
+            titleLabel.Text = "TRUNG TÂM Y TẾ VĨNH TƯỜNG";
+            titleLabel.Font = new Font("Tahoma", 18, FontStyle.Bold);
+            titleLabel.ForeColor = Color.White;
+            titleLabel.AutoSize = true;
+            titleLabel.Location = new Point(logoVnpt.Right + 15, 12);
+            headerPanel.Controls.Add(titleLabel);
+
+            // Thêm nút đóng
+            Button closeButton = new Button();
+            closeButton.Text = "X";
+            closeButton.Font = new Font("Arial", 14, FontStyle.Bold);
+            closeButton.FlatStyle = FlatStyle.Flat;
+            closeButton.FlatAppearance.BorderSize = 0;
+            closeButton.Size = new Size(40, 40);
+            closeButton.Location = new Point(this.Width - 45, 5);
+            closeButton.BackColor = Color.FromArgb(192, 0, 0);
+            closeButton.ForeColor = Color.White;
+            closeButton.Click += (s, e) => this.Close();
+
+            headerPanel.Controls.Add(closeButton);
+
+            // Cập nhật panel1 hiện có
+            this.Controls.Remove(panel1);
+            this.Controls.Add(headerPanel);
+
+            // Tạo subheader mới với tiêu đề màn hình
+            Panel subHeaderPanel = new Panel();
+            subHeaderPanel.BackColor = Color.FromArgb(0, 102, 204);
+            subHeaderPanel.Height = 60;
+            subHeaderPanel.Dock = DockStyle.Top;
+            subHeaderPanel.Padding = new Padding(10, 0, 10, 0);
+
+            // Thêm tiêu đề (lbTieude1) vào subheader
+            Label headerLabel = new Label();
+            headerLabel.Text = lbTieude1.Text;
+            headerLabel.Font = new Font("Tahoma", 20, FontStyle.Bold);
+            headerLabel.ForeColor = Color.White;
+            headerLabel.AutoSize = true;
+            headerLabel.Location = new Point(15, 15);
+            subHeaderPanel.Controls.Add(headerLabel);
+
+            // Hiện đại hóa nút quay lại
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.BackColor = Color.FromArgb(0, 122, 204);
+            btnBack.ForeColor = Color.White;
+            btnBack.Size = new Size(180, 45);
+            btnBack.Location = new Point(this.Width - 190, 8);
+            btnBack.Font = new Font("Tahoma", 14, FontStyle.Bold);
+            btnBack.ImageAlign = ContentAlignment.MiddleLeft;
+            btnBack.TextAlign = ContentAlignment.MiddleRight;
+            btnBack.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+
+            subHeaderPanel.Controls.Add(btnBack);
+            this.Controls.Add(subHeaderPanel);
+
+            // Điều chỉnh panel2 (panel chứa các nút lựa chọn)
+            panel2.BackColor = Color.FromArgb(240, 249, 255); // Màu nền nhẹ
+            panel2.Location = new Point(0, headerPanel.Height + subHeaderPanel.Height);
+            panel2.Height = this.Height - headerPanel.Height - subHeaderPanel.Height;
+            panel2.Width = this.Width;
+            panel2.Padding = new Padding(20);
+            panel2.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom;
+
+            // Nếu panel_BacSi hiển thị, điều chỉnh cả nó
+            if (panel_BacSi.Visible)
+            {
+                // Hiện đại hóa panel bác sĩ
+                panel_BacSi.BackColor = Color.FromArgb(230, 244, 255);
+                panel_BacSi.Height = 70;
+                panel_BacSi.Top = headerPanel.Height + subHeaderPanel.Height;
+
+                // Hiện đại hóa label trong panel_BacSi
+                lbTieude2.Font = new Font("Tahoma", 18, FontStyle.Bold);
+                lbTieude2.ForeColor = Color.FromArgb(0, 102, 204);
+
+                // Hiện đại hóa combobox bác sĩ
+                cboBacSi.Font = new Font("Tahoma", 14);
+                cboBacSi.Height = 40;
+
+                // Hiện đại hóa nút xóa bác sĩ
+                btnXoaBS.FlatStyle = FlatStyle.Flat;
+                btnXoaBS.FlatAppearance.BorderSize = 0;
+                btnXoaBS.BackColor = Color.FromArgb(220, 53, 69);
+                btnXoaBS.ForeColor = Color.White;
+
+                // Điều chỉnh lại vị trí panel2
+                panel2.Location = new Point(0, headerPanel.Height + subHeaderPanel.Height + panel_BacSi.Height);
+                panel2.Height = this.Height - headerPanel.Height - subHeaderPanel.Height - panel_BacSi.Height;
+            }
+        }
+        // End VPC
 
         public BVVINHPHUC_DangKyKham(int w, int h, bool parent_fullscreen = false)
         { 
@@ -116,9 +250,11 @@ namespace L1_Mini
                 {
                     Load_Button(dt_phongkham, "", "");
                 }
-                
+
 
             }  
+            // Thêm gọi phương thức hiện đại hóa giao diện
+            InitializeModernUI();
         } 
 
         string thong_tin = "";
@@ -829,44 +965,64 @@ namespace L1_Mini
             id = id_select;
             name = name_select;
 
-            int number = 6;// 3;
-            int pading = 15;// 100;
-            int x0 = pading; int y0 = pading;
-            int w = (Width - (number + 3) * pading) / number;
-            int h = w * 70 / 100;
-
-
             panel2.Controls.Clear();
-            
+
+            // Số cột và kích thước nút
+            int columns = 3;
+            int padding = 15;
+            int availableWidth = panel2.Width - (padding * (columns + 1));
+            int buttonWidth = availableWidth / columns;
+            int buttonHeight = 100;
 
             for (int k = 0; k < dt.Rows.Count; k++)
             {
-                int i = (k) / number;
-                int j = k - number * i;
+                int row = k / columns;
+                int col = k % columns;
 
                 Button btn = new Button();
+                btn.Text = dt.Rows[k]["col2"].ToString();
+                btn.Tag = dt.Rows[k]["col1"].ToString();
 
+                // Hiện đại hóa nút
+                btn.FlatStyle = FlatStyle.Flat;
+                btn.FlatAppearance.BorderColor = Color.FromArgb(0, 102, 204);
+                btn.FlatAppearance.BorderSize = 1;
+                btn.BackColor = Color.White;
+                btn.ForeColor = Color.FromArgb(0, 102, 204);
+                btn.Font = new Font("Tahoma", 14);
+                btn.Size = new Size(buttonWidth, buttonHeight);
+                btn.Location = new Point(padding + col * (buttonWidth + padding), padding + row * (buttonHeight + padding));
+                btn.Cursor = Cursors.Hand;
 
-                btn.Font = new System.Drawing.Font("Tahoma", 17F);
-                //btn.UseFont = true;
-                //btn.Appearance.Options.UseTextOptions = true;
-                //btn.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-                //btn.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Office2003;
-                //btn.LookAndFeel.UseDefaultLookAndFeel = false;
-                btn.Size = new System.Drawing.Size(w, h);
+                // Thêm sự kiện cho hiệu ứng hover
+                btn.MouseEnter += (s, e) => {
+                    Button hoveredBtn = (Button)s;
+                    hoveredBtn.BackColor = Color.FromArgb(0, 102, 204);
+                    hoveredBtn.ForeColor = Color.White;
+                };
+
+                btn.MouseLeave += (s, e) => {
+                    Button hoveredBtn = (Button)s;
+                    if (hoveredBtn.Tag.ToString() != id) // Chỉ đổi lại màu nếu không phải nút được chọn
+                    {
+                        hoveredBtn.BackColor = Color.White;
+                        hoveredBtn.ForeColor = Color.FromArgb(0, 102, 204);
+                    }
+                };
+
+                // Nếu là nút được chọn, hiển thị với màu khác
+                if ((CHON == 1 && dtTT_BenhNhan.Columns.Contains("DICHVUID") &&
+                     dtTT_BenhNhan.Rows[0]["DICHVUID"].ToString() == btn.Tag.ToString()) ||
+                    (CHON == 2 && dtTT_BenhNhan.Columns.Contains("PHONGKHAMID") &&
+                     dtTT_BenhNhan.Rows[0]["PHONGKHAMID"].ToString() == btn.Tag.ToString()) ||
+                    (btn.Tag.ToString() == id))
+                {
+                    btn.BackColor = Color.FromArgb(0, 102, 204);
+                    btn.ForeColor = Color.White;
+                }
+
                 btn.Click += new EventHandler(btnSelect);
-                btn.BackColor = Color.LightBlue;
-                // btn.AllowHtmlDraw = DevExpress.Utils.DefaultBoolean.True;
-                //btn.BorderColor = System.Drawing.Color.Gray;
-
-                btn.Location = new System.Drawing.Point(x0 + j * (w + pading), y0 + i * (h + pading));
-                //btn.Text = dt.Rows[k]["TEN_HIENTHI"].ToString() + "\r\n(" + dt.Rows[k]["STT"].ToString() + ")"; // Name
-
-                string ten = dt.Rows[k]["col2"].ToString();
-                //if (ten.IndexOf("]") > -1) ten = ten.Substring(ten.IndexOf("]") + 1).Trim();
-                btn.Text = ten;// + "\r\n(" + dt.Rows[k]["STT"].ToString() + ")"; // Name
-                btn.Tag = dt.Rows[k]["col1"].ToString(); // ID 
-
+                panel2.Controls.Add(btn);
 
                 if (CHON == 1)
                 {
@@ -881,21 +1037,11 @@ namespace L1_Mini
 
 
                 panel2.Controls.Add(btn);
-
-
-                //Label lb_YCK = new Label();
-                //lb_YCK.AutoSize = true;   
-                //lb_YCK.Text = "ấdasdasdasd"; lb_YCK.Location = new System.Drawing.Point(x0 + j * (w + pading), y0 + i * (h + pading));
-                //Controls.Add(lb_YCK);
             }
 
-            //int hh = (dt.Rows.Count-1+ number) / number;
-            //btnSubmit.Location = new System.Drawing.Point(this.Size.Width/2 - btnSubmit.Size.Width-5, y0 + hh * (h + pading));
-            //btnBack.Location = new System.Drawing.Point(this.Size.Width / 2 + 5, y0 + hh * (h + pading));
-
-            if (Hien_Thi_Chon_Bac_Si 
-                && (Const.L1_BV_DEFAULT == 4 || (Const.L1_BV_DEFAULT == 0 && Const.default_test == 4))
-                ) //Nhiệt đới
+            // Cập nhật tiêu đề theo trạng thái
+            if (Hien_Thi_Chon_Bac_Si &&
+                (Const.L1_BV_DEFAULT == 4 || (Const.L1_BV_DEFAULT == 0 && Const.default_test == 4)))
             {
                 if (CHON == 1)
                 {
@@ -931,14 +1077,8 @@ namespace L1_Mini
                     lbTieude1.Text = "Chọn phòng khám".ToUpper();
                 }
             }
-            //label1.Text = this.Text.ToUpper();
 
-            if (id == "") btnSubmit.Enabled = false;
-
-
-            //Controls.Add(btnSubmit);
-            //Controls.Add(btnBack);
-
+            btnSubmit.Enabled = (id != "");
             panel2.AutoScroll = true;
         }
         string ID_YCKham = "0";                                   // khoi tao =0

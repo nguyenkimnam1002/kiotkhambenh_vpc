@@ -34,7 +34,7 @@ namespace L1_Mini
         {
             // Tạo panel header hiện đại
             headerPanel = new Panel();
-            headerPanel.BackColor = Color.FromArgb(0, 102, 204); // Màu xanh VNPT
+            headerPanel.BackColor = Color.FromArgb(69, 196, 252); // Màu xanh VNPT
             headerPanel.Dock = DockStyle.Top;
             headerPanel.Height = 80;
 
@@ -76,7 +76,7 @@ namespace L1_Mini
             titleLabel.Font = new Font("Tahoma", 14, FontStyle.Bold);
             titleLabel.ForeColor = Color.White;
             titleLabel.AutoSize = true;
-            titleLabel.Location = new Point(pictureBoxVNPTLogo.Right + 10, 10);
+            titleLabel.Location = new Point(pictureBoxVNPTLogo.Right + 30, 10);
             headerPanel.Controls.Add(titleLabel);
 
             // Tạo header label (tiêu đề chính)
