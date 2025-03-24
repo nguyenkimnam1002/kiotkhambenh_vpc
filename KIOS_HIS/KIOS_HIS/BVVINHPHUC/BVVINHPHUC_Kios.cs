@@ -23,6 +23,300 @@ namespace L1_Mini
 {
     public partial class BVVINHPHUC_Kios : Form
     {
+        // Add a PictureBox for the VNPT logo
+        // End vpc edit interface 
+        private PictureBox pictureBoxVNPTLogo;
+        private Panel headerPanel;
+        private Label headerLabel;
+
+        // Method to initialize the modern UI components
+        private void InitializeModernUI()
+        {
+            // Tạo panel header hiện đại
+            headerPanel = new Panel();
+            headerPanel.BackColor = Color.FromArgb(0, 102, 204); // Màu xanh VNPT
+            headerPanel.Dock = DockStyle.Top;
+            headerPanel.Height = 80;
+
+            // Tạo và thêm logo VNPT (sử dụng Properties.Resources)
+            pictureBoxVNPTLogo = new PictureBox();
+            pictureBoxVNPTLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxVNPTLogo.Size = new Size(60, 60);
+            pictureBoxVNPTLogo.Location = new Point(10, 10);
+            pictureBoxVNPTLogo.BackColor = Color.Transparent;
+
+            try
+            {
+                // Sử dụng resource nhúng (KHUYẾN NGHỊ)
+                // pictureBoxVNPTLogo.Image = Properties.Resources.vnpt_logo;
+
+                // Hoặc, tải từ file (ít khuyến nghị hơn)
+                string logoPath = Path.Combine(Application.StartupPath, "vnpt_logo.png");
+                if (File.Exists(logoPath))
+                {
+                    pictureBoxVNPTLogo.Image = Image.FromFile(logoPath);
+                    Console.WriteLine("Tải logo thành công từ: " + logoPath);
+                }
+                else
+                {
+                    Console.WriteLine("Không tìm thấy file logo: " + logoPath);
+                    // Vẫn hiển thị ô logo trống
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi tải logo: " + ex.Message);
+            }
+
+            headerPanel.Controls.Add(pictureBoxVNPTLogo);
+
+            // Thêm title của cơ sở y tế
+            Label titleLabel = new Label();
+            titleLabel.Text = "TRUNG TÂM Y TẾ VĨNH TƯỜNG";
+            titleLabel.Font = new Font("Tahoma", 14, FontStyle.Bold);
+            titleLabel.ForeColor = Color.White;
+            titleLabel.AutoSize = true;
+            titleLabel.Location = new Point(pictureBoxVNPTLogo.Right + 10, 10);
+            headerPanel.Controls.Add(titleLabel);
+
+            // Tạo header label (tiêu đề chính)
+            headerLabel = new Label();
+            headerLabel.Text = "HỆ THỐNG ĐĂNG KÝ KHÁM BỆNH";
+            headerLabel.Font = new Font("Tahoma", 24, FontStyle.Bold);
+            headerLabel.ForeColor = Color.White;
+            headerLabel.TextAlign = ContentAlignment.MiddleCenter;
+            headerLabel.Size = new Size(this.ClientSize.Width - 20, 40);
+            headerLabel.Location = new Point(10, 35);
+
+            headerPanel.Controls.Add(headerLabel);
+
+            // Thêm panel vào form
+            this.Controls.Add(headerPanel);
+
+            // Cập nhật vị trí TabControl
+            tabControl1.Location = new Point(1, headerPanel.Height + 1);
+            tabControl1.Size = new Size(this.ClientSize.Width - 2, this.ClientSize.Height - headerPanel.Height - 2);
+            tabControl1.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom;
+
+            // Thêm nút đóng ứng dụng
+            AddCloseButton();
+
+            // Cập nhật các nút và textbox
+            ModernizeTabControl();
+            ModernizeButtons();
+            ModernizeTextBoxes();
+
+            // Thiết lập title của form (vẫn cần để hiển thị ở thanh taskbar)
+            this.Text = "Trung tâm Y tế Vĩnh Tường";
+
+            // Thiết lập các thuộc tính khác
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.BackColor = Color.White;
+
+            // Đăng ký sự kiện điều chỉnh khi kích thước form thay đổi
+            this.Resize += (s, e) =>
+            {
+                if (headerLabel != null)
+                    headerLabel.Size = new Size(this.ClientSize.Width - 20, 40);
+            };
+        }
+
+        private void AddCloseButton()
+        {
+            Button closeButton = new Button();
+            closeButton.Text = "X";
+            closeButton.Size = new Size(40, 40);
+            closeButton.Location = new Point(this.ClientSize.Width - 45, 5);
+            closeButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            closeButton.FlatStyle = FlatStyle.Flat;
+            closeButton.FlatAppearance.BorderSize = 0;
+            closeButton.BackColor = Color.FromArgb(192, 0, 0);
+            closeButton.ForeColor = Color.White;
+            closeButton.Font = new Font("Arial", 14, FontStyle.Bold);
+            closeButton.Cursor = Cursors.Hand;
+
+            closeButton.Click += (s, e) =>
+            {
+                DialogResult result = MessageBox.Show("Bạn có muốn thoát khỏi ứng dụng?",
+                    "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    Application.Exit();
+                }
+            };
+
+            headerPanel.Controls.Add(closeButton);
+        }
+
+        // Modernize the tab control
+        private void ModernizeTabControl()
+        {
+            tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
+            tabControl1.DrawItem += TabControl1_DrawItem;
+            tabControl1.SizeMode = TabSizeMode.Fixed;
+            tabControl1.ItemSize = new Size(200, 45);
+            tabControl1.Font = new Font("Tahoma", 14, FontStyle.Regular);
+        }
+        
+        // Event handler for custom tab drawing
+        private void TabControl1_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            TabPage tabPage = tabControl1.TabPages[e.Index];
+            Rectangle tabBounds = tabControl1.GetTabRect(e.Index);
+            
+            bool isSelected = (e.State & DrawItemState.Selected) == DrawItemState.Selected;
+            
+            // Fill background
+            using (SolidBrush brush = new SolidBrush(isSelected ? Color.White : Color.FromArgb(240, 240, 240)))
+            {
+                g.FillRectangle(brush, tabBounds);
+            }
+            
+            // Draw text
+            using (SolidBrush textBrush = new SolidBrush(isSelected ? Color.FromArgb(0, 102, 204) : Color.Gray))
+            {
+                StringFormat stringFormat = new StringFormat();
+                stringFormat.Alignment = StringAlignment.Center;
+                stringFormat.LineAlignment = StringAlignment.Center;
+                
+                // Use bold font for selected tab
+                using (Font font = new Font("Tahoma", 14, isSelected ? FontStyle.Bold : FontStyle.Regular))
+                {
+                    g.DrawString(tabPage.Text, font, textBrush, tabBounds, stringFormat);
+                }
+            }
+            
+            // Draw bottom line for selected tab
+            if (isSelected)
+            {
+                using (Pen pen = new Pen(Color.FromArgb(0, 102, 204), 3))
+                {
+                    g.DrawLine(pen, tabBounds.Left, tabBounds.Bottom, tabBounds.Right, tabBounds.Bottom);
+                }
+            }
+        }
+        
+        // Modernize all buttons
+        private void ModernizeButtons()
+        {
+            foreach (Control control in this.Controls.Find("tableLayoutPanel1", true)[0].Controls)
+            {
+                if (control is Button)
+                {
+                    StyleButton(control as Button);
+                }
+                else if (control is Panel)
+                {
+                    foreach (Control panelControl in control.Controls)
+                    {
+                        if (panelControl is Button)
+                        {
+                            StyleButton(panelControl as Button);
+                        }
+                    }
+                }
+            }
+            
+            // Style specific buttons
+            if (btnKhamMoi != null) StyleButton(btnKhamMoi, Color.FromArgb(0, 120, 215));
+            if (buttonLaysoUT != null) StyleButton(buttonLaysoUT, Color.FromArgb(0, 120, 215));
+            if (btnDichvu != null) StyleButton(btnDichvu, Color.FromArgb(0, 120, 215));
+            if (btnDangKy != null) StyleButton(btnDangKy, Color.FromArgb(0, 150, 136));
+            if (btnRefresh != null) StyleButton(btnRefresh, Color.FromArgb(120, 120, 120));
+        }
+        
+        // Style a specific button
+        private void StyleButton(Button button, Color? backgroundColor = null)
+        {
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderSize = 0;
+            button.BackColor = backgroundColor ?? Color.FromArgb(0, 102, 204);
+            button.ForeColor = Color.White;
+            button.Font = new Font("Tahoma", 16, FontStyle.Bold);
+            button.Cursor = Cursors.Hand;
+            
+            // Add rounded corners
+            button.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, button.Width, button.Height, 10, 10));
+            
+            // Add hover effect
+            button.MouseEnter += (s, e) => 
+            {
+                button.BackColor = ControlPaint.Light(button.BackColor);
+            };
+            
+            button.MouseLeave += (s, e) => 
+            {
+                button.BackColor = backgroundColor ?? Color.FromArgb(0, 102, 204);
+            };
+        }
+        
+        // Create rounded rectangle region
+        [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+        (
+            int nLeftRect,     // x-coordinate of upper-left corner
+            int nTopRect,      // y-coordinate of upper-left corner
+            int nRightRect,    // x-coordinate of lower-right corner
+            int nBottomRect,   // y-coordinate of lower-right corner
+            int nWidthEllipse, // width of ellipse
+            int nHeightEllipse // height of ellipse
+        );
+        
+        // Modernize all textboxes
+        private void ModernizeTextBoxes()
+        {
+            foreach (Control control in this.Controls.Find("tableLayoutPanel1", true)[0].Controls)
+            {
+                if (control is Panel)
+                {
+                    foreach (Control panelControl in control.Controls)
+                    {
+                        if (panelControl is TextBox)
+                        {
+                            StyleTextBox(panelControl as TextBox);
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Style a specific textbox
+        private void StyleTextBox(TextBox textBox)
+        {
+            textBox.BorderStyle = BorderStyle.None;
+            textBox.BackColor = Color.White;
+            
+            // Create a border panel
+            Panel borderPanel = new Panel();
+            borderPanel.Size = new Size(textBox.Width, textBox.Height + 5);
+            borderPanel.Location = new Point(textBox.Location.X, textBox.Location.Y - 2);
+            borderPanel.BackColor = Color.White;
+            borderPanel.Paint += (s, e) => 
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.FromArgb(0, 102, 204), 2), 
+                    new Rectangle(0, 0, borderPanel.Width - 1, borderPanel.Height - 1));
+            };
+            
+            textBox.Parent.Controls.Add(borderPanel);
+            borderPanel.SendToBack();
+        }
+        
+        // Override the original load method to incorporate our new UI
+        private void ModernizeUI_Load(object sender, EventArgs e)
+        {
+            // Call the original load functionality
+            BVVINHPHUC_Kios_Load(sender, e);
+            
+            // Initialize modern UI components
+            InitializeModernUI();
+            
+            // Adjust form to fit screen
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        // End vpc edit interface 
         private string[] the_uutien = { "KIOSDKHNM01", "KIOSDKHNM02" };
         //L2PT-4659
         string csytid = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "OPT_HOSPITAL_ID");
@@ -57,7 +351,6 @@ namespace L1_Mini
             this.BackColor = Color.Transparent;
 
             //Init
-            //if (Const.L1_dkkham != "1") btnDangKy.Visible = false;
             lbLoi.Text = "";
             lbTheUutien.Text = "";
             hideBARCODE_BHYT = "";
@@ -65,25 +358,8 @@ namespace L1_Mini
             txtHoTen.Text = "";
             txtMaBN.Focus();
 
-            //Thread.Sleep(100);
-
-            //Nhận đầu đọc thẻ
-            //string dau_doc_the = Scan_Port();
-
-            //DialogResult dlResult = MessageBoxEx.Show(dau_doc_the==""?"Không tìm thấy đầu đọc thẻ!"
-            //    :"Xác nhận đầu đọc thẻ: "+ m_szVersion + "  " + m_szCaption + " - tại: " + m_szLastCommPort
-            //, 2000);
-            //lbCom.Text = m_szLastCommPort+":";
-
-            //Nhận đầu đọc thẻ
-            //InitReadCard();
-
-            txtMaBN.Focus();
-
             Reset_CauHinh_BenhVien();
-
             
-
             string KIOS_APP_CHUYEN2KIEU = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_CHUYEN2KIEU");
             if (KIOS_APP_CHUYEN2KIEU == "1")
             {
@@ -91,20 +367,21 @@ namespace L1_Mini
                 btnKhamMoi.Visible = true;
                 if(cauhinh_layso_uutien == "1")
                 {
-                    buttonLaysoUT.Visible = true;//L2PT-4659
-                    btnDichvu.Visible = true;//L2PT-4659
+                    buttonLaysoUT.Visible = true;
+                    btnDichvu.Visible = true;
                 }
                 else
                 {
-                    buttonLaysoUT.Visible = false;//L2PT-4659
-                    btnDichvu.Visible = false;//L2PT-4659
+                    buttonLaysoUT.Visible = false;
+                    btnDichvu.Visible = false;
                 }
                 
                 Load_Data();
             }
+            
             string KIOS_APP_TENBV = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_TENBV");
             if (KIOS_APP_TENBV.Length > 1) this.Text = KIOS_APP_TENBV;
-            //lac viet
+            
             string KIOS_SHOW_TAB_TRACUU = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_SHOW_TAB_TRACUU");
             if (KIOS_SHOW_TAB_TRACUU == "0")
             {
@@ -112,26 +389,30 @@ namespace L1_Mini
                 this.tabControl1.Controls.Remove(this.tabPage3);
                 this.tabControl1.Controls.Remove(this.tabPage4);
             }
+            
             string KIOS_AN_TAB_TRACUU_BD = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_AN_TAB_TRACUU_BD");
             if (KIOS_AN_TAB_TRACUU_BD == "1")
             {
                 this.tabControl1.Controls.Remove(this.tabPage4);
             }
+            
             string KIOS_TAB_TRACUU_BN = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_TAB_TRACUU_BN");
             if (KIOS_TAB_TRACUU_BN == "0")
             {
                 this.tabControl1.Controls.Remove(this.tabPage5);
             }
+            
             string KIOS_TAB_TRACUU_TVT = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_TAB_TRACUU_TVT");
             if (KIOS_TAB_TRACUU_TVT == "1")
             {
                 this.tabControl1.Controls.Remove(this.tabPage3);
             }
-           /* btnKhamMoi.Visible = false; HDG an lay so
-            lbKhamMoi.Visible = false;*/
-            // start sondn reset lai kios theo ngay 
+            
+            // Thiết lập kiểm tra reset theo ngày
             SetTimer();
-            // end sondn reset lai kios theo ngay 
+            
+            // Gọi phương thức khởi tạo giao diện hiện đại
+            InitializeModernUI();
         }
 
         // start sondn thiet lap interval check ngay hien tai trong he thong; 

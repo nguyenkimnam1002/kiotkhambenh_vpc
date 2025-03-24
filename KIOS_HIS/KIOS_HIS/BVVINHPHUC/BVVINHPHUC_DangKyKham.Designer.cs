@@ -185,6 +185,7 @@
             this.panel_BacSi.PerformLayout();
             this.ResumeLayout(false);
 
+            
         }
 
         #endregion
