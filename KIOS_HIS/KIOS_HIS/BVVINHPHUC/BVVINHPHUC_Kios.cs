@@ -26,8 +26,11 @@ namespace L1_Mini
         // Add a PictureBox for the VNPT logo
         // End vpc edit interface 
         private PictureBox pictureBoxVNPTLogo;
+        private PictureBox pictureBoxCSYTLogo;
         private Panel headerPanel;
         private Label headerLabel;
+        string SoYTe = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_SYT");
+        string TenBV = RequestHTTP.call_ajaxCALL_SP_S_result("COM.CAUHINH", "KIOS_APP_TENBV");
 
         // Method to initialize the modern UI components
         private void InitializeModernUI()
@@ -42,7 +45,7 @@ namespace L1_Mini
             pictureBoxVNPTLogo = new PictureBox();
             pictureBoxVNPTLogo.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxVNPTLogo.Size = new Size(60, 60);
-            pictureBoxVNPTLogo.Location = new Point(10, 10);
+            pictureBoxVNPTLogo.Location = new Point(this.ClientSize.Width - 100, 10);
             pictureBoxVNPTLogo.BackColor = Color.Transparent;
 
             try
@@ -70,23 +73,55 @@ namespace L1_Mini
 
             headerPanel.Controls.Add(pictureBoxVNPTLogo);
 
+            // Tạo và thêm logo CSYT (sử dụng Properties.Resources)
+            pictureBoxCSYTLogo = new PictureBox();
+            pictureBoxCSYTLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxCSYTLogo.Size = new Size(60, 60);
+            pictureBoxCSYTLogo.Location = new Point(10, 10);
+            pictureBoxCSYTLogo.BackColor = Color.Transparent;
+
+            try
+            {
+                // Sử dụng resource nhúng (KHUYẾN NGHỊ)
+                // pictureBoxCSYTLogo.Image = Properties.Resources.CSYT_logo;
+
+                // Hoặc, tải từ file (ít khuyến nghị hơn)
+                string logoPath = Path.Combine(Application.StartupPath, "CSYT_logo.png");
+                if (File.Exists(logoPath))
+                {
+                    pictureBoxCSYTLogo.Image = Image.FromFile(logoPath);
+                    Console.WriteLine("Tải logo thành công từ: " + logoPath);
+                }
+                else
+                {
+                    Console.WriteLine("Không tìm thấy file logo: " + logoPath);
+                    // Vẫn hiển thị ô logo trống
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi tải logo: " + ex.Message);
+            }
+
+            headerPanel.Controls.Add(pictureBoxCSYTLogo);
+
             // Thêm title của cơ sở y tế
             Label titleLabel = new Label();
-            titleLabel.Text = "TRUNG TÂM Y TẾ VĨNH TƯỜNG";
+            titleLabel.Text = TenBV.ToUpper();
             titleLabel.Font = new Font("Tahoma", 14, FontStyle.Bold);
             titleLabel.ForeColor = Color.White;
             titleLabel.AutoSize = true;
-            titleLabel.Location = new Point(pictureBoxVNPTLogo.Right + 30, 10);
+            titleLabel.Location = new Point(pictureBoxCSYTLogo.Right + 10, 10);
             headerPanel.Controls.Add(titleLabel);
 
             // Tạo header label (tiêu đề chính)
             headerLabel = new Label();
             headerLabel.Text = "HỆ THỐNG ĐĂNG KÝ KHÁM BỆNH";
-            headerLabel.Font = new Font("Tahoma", 24, FontStyle.Bold);
+            headerLabel.Font = new Font("Tahoma", 20, FontStyle.Bold);
             headerLabel.ForeColor = Color.White;
             headerLabel.TextAlign = ContentAlignment.MiddleCenter;
-            headerLabel.Size = new Size(this.ClientSize.Width - 20, 40);
-            headerLabel.Location = new Point(10, 35);
+            headerLabel.AutoSize = true;
+            headerLabel.Location = new Point(titleLabel.Right + 10, 30);
 
             headerPanel.Controls.Add(headerLabel);
 
@@ -107,7 +142,7 @@ namespace L1_Mini
             ModernizeTextBoxes();
 
             // Thiết lập title của form (vẫn cần để hiển thị ở thanh taskbar)
-            this.Text = "Trung tâm Y tế Vĩnh Tường";
+            this.Text = TenBV.ToUpper();
 
             // Thiết lập các thuộc tính khác
             this.FormBorderStyle = FormBorderStyle.None;
@@ -686,6 +721,8 @@ namespace L1_Mini
             docText = docText.Replace("zzsdt", PHIEUIN.SDT);
             docText = docText.Replace("zztuoi", PHIEUIN.Tuoi);
             docText = docText.Replace("zzdiachi", PHIEUIN.DiaChi);
+            docText = docText.Replace("zztensoyte", SoYTe.ToUpper());
+            docText = docText.Replace("zztenbv", TenBV.ToUpper());
             
             return docText;
         }

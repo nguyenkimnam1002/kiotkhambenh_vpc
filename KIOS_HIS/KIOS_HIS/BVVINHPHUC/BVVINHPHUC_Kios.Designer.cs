@@ -219,7 +219,7 @@ namespace L1_Mini
             this.txtMaBN.Margin = new System.Windows.Forms.Padding(3, 10, 300, 3);
             this.txtMaBN.MaxLength = 500;
             this.txtMaBN.Name = "txtMaBN";
-            this.txtMaBN.Size = new System.Drawing.Size(734, 82);
+            this.txtMaBN.Size = new System.Drawing.Size(700, 82);
             this.txtMaBN.TabIndex = 1;
             this.txtMaBN.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMaBN_KeyDown);
             this.txtMaBN.Leave += new System.EventHandler(this.txtMaBN_Leave);
@@ -253,7 +253,7 @@ namespace L1_Mini
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 10, 300, 3);
             this.txtHoTen.MaxLength = 500;
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(734, 82);
+            this.txtHoTen.Size = new System.Drawing.Size(700, 82);
             this.txtHoTen.TabIndex = 2;
             this.txtHoTen.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtHoTen_KeyDown);
             this.txtHoTen.Leave += new System.EventHandler(this.txtHoTen_Leave);
@@ -276,7 +276,7 @@ namespace L1_Mini
             this.btnRefresh.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.Location = new System.Drawing.Point(747, -1);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(298, 82);
+            this.btnRefresh.Size = new System.Drawing.Size(264, 82);
             this.btnRefresh.TabIndex = 6;
             this.btnRefresh.Text = "Xóa";
             this.btnRefresh.UseVisualStyleBackColor = false;
@@ -321,7 +321,7 @@ namespace L1_Mini
             // lbThongbao
             // 
             this.lbThongbao.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbThongbao.Font = new System.Drawing.Font("Tahoma", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbThongbao.Font = new System.Drawing.Font("Tahoma", 32, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbThongbao.ForeColor = System.Drawing.Color.Green;
             this.lbThongbao.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lbThongbao.Location = new System.Drawing.Point(0, 0);
